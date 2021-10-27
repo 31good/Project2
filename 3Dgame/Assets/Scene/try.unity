@@ -515,7 +515,7 @@ NavMeshAgent:
   m_BaseOffset: 1.8105612
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1125866818
+--- !u!114 &1125866817
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
