@@ -17,8 +17,9 @@ public class agentmanager : MonoBehaviour
         if(Input.GetMouseButtonDown(0)){
             RaycastHit hit;
             if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition),out hit,100)){
-                foreach(GameObject a in agents)
-                a.GetComponent<AIControl>().agent.SetDestination(hit.point);
+                foreach(GameObject a in agents){
+                    a.GetComponent<AIControl>().agent.SetDestination(hit.point);
+                }
             }
         }
     }
