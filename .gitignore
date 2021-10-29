@@ -58,3 +58,33 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+3Dgame/Library/ArtifactDB
+3Dgame/Library/ArtifactDB
+3Dgame/Library/ArtifactDB
+3Dgame/Library/ArtifactDB
+3Dgame/Library/PackageManager/ProjectCache
+3Dgame/Library/PackageManager/ProjectCache
+3Dgame/Library/PackageManager/ProjectCache.md5
+3Dgame/Library/SceneVisibilityState.asset
+3Dgame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+3Dgame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+3Dgame/Library/ScriptAssemblies/Unity.Timeline.dll
+3Dgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.Timeline.pdb
+3Dgame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+3Dgame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+3Dgame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+*.dll
+*.pdb
+*.log
+*.catalog
+3Dgame/Library/SourceAssetDB
