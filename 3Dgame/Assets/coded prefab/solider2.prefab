@@ -42,10 +42,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8441409317062296399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1308055662d75424a9f876024e0fa6c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 171da9b384f4ed940956f2494d1cc1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 8441409317062296397}
 --- !u!195 &8441409317062296397
 NavMeshAgent:
   m_ObjectHideFlags: 0

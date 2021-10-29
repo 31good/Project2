@@ -3928,6 +3928,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6736836680867509019, guid: b543e4a474b927b47a1e544824e226b4, type: 3}
   m_PrefabInstance: {fileID: 1173946983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1185426311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2467817934220494969, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
+  m_PrefabInstance: {fileID: 2467817935685989396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1185426312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185426311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 7}
+  m_Center: {x: 0, y: 2, z: 2}
 --- !u!1 &1186628748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,7 +3960,7 @@ GameObject:
   - component: {fileID: 1186628749}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7498,7 +7516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2467817934220494948, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -77.2
+      value: -61.66
       objectReference: {fileID: 0}
     - target: {fileID: 2467817934220494948, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
       propertyPath: m_LocalPosition.y
