@@ -10,9 +10,11 @@ public class BasicAttack : MonoBehaviour
     public List<Root3> enimies;
     public bool atkReady;
     public NavMeshAgent myAgent;
-    public float rotateSpeedWhenAtk;
+    public float rotateSpeedWhenAtk = 1;
     float velocityRoto;
-
+    public void ReadyAction(){
+        atkReady = true;
+    }
     void Start()
     {
         Transform _startpos = gameObject.GetComponent<Transform>();
@@ -30,6 +32,7 @@ public class BasicAttack : MonoBehaviour
             }
         }
         if(enimies.Count > 0){
+            print("hi");
             targetRoot = enimies[0];
             foreach(var enemy in enimies){
                 float dist1 = Vector3.Distance(transform.position, targetRoot.transform.position);
@@ -62,9 +65,5 @@ public class BasicAttack : MonoBehaviour
             myRoot.ChangeState(Root3.STATE.Idle);
         }
         
-    }
-    void ReadyAction(){
-        atkReady = true;
-
     }
 }

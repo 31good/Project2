@@ -7,6 +7,10 @@ TagManager:
   - ai
   - ground
   - mechine_gun
+  - Target
+  - Metal
+  - ExplosiveBarrel
+  - enemy
   layers:
   - Default
   - TransparentFX

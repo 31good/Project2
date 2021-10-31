@@ -15,17 +15,16 @@ public class Root3 : MonoBehaviour
     public int atk = 10;
     public int atkVar = 2;
     public float atkSpeed = 2.5f;
-    public float reach = 3;
+    public float reach = 20;
     public int attack_radius = 10;
 
     [Header("Detection")]
     public List<Root3> detected;
 
     [Header("Other")]
-    public GameObject gun;
+    //public GameObject gun;
     public Transform Fire_pos;
     public float bullet_force = 50f;
-    public Transform attack_speed;
     public GameObject Bulletprefab; 
     // Start is called before the first frame update
     public void DamageTaken(int damage){
@@ -43,6 +42,7 @@ public class Root3 : MonoBehaviour
     public void OnTriggerEnter(Collider other){
         if(other.tag == "enemy"){
             detected.Add(other.GetComponent<Root3>());
+            print("add");
         }
     }
     public void OnTriggerExit(Collider other){
