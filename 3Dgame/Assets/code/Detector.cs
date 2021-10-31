@@ -18,32 +18,32 @@ public class Detector : MonoBehaviour
     }
 
     public void OnTriggerExit(Collider other){
-        myRoot.detected.Remove(other.GetComponent<Root3>();
+        //myRoot.detected.Remove(other.GetComponent<Root3>();
     }
     // Update is called once per frame
     void Update()
     {
-        if(myRoot.enemies.Count >0){
-            myRoot.enemies.Clear();
-        }
-        foreach (Root3 detectedObject in myRoot.detected){
-            if (detectedObject == null){
-                myRoot.enemies.Remove(detectedObject);
-            }
-            if (detectedObject.tag == "enemy"){
-                myRoot.enemies.Add(detectedObject)
-            }
-        }
+        //f(myRoot.enemies.Count >0){
+        //    myRoot.enemies.Clear();
+        //}
+        //foreach (Root3 detectedObject in myRoot.detected){
+        //    if (detectedObject == null){
+        //        myRoot.enemies.Remove(detectedObject);
+        //    }
+        //    if (detectedObject.tag == "enemy"){
+        //        myRoot.enemies.Add(detectedObject)
+        //    }
+        //}
         //going battle
-        if(myRoot.currentState != Root3.STATE.Moving){
-            if(myRoot.enemies.Count > 0){
-                myRoot.ChangeState(Root3.STATE.Combat);
-            }
-            else{
-                if(myRoot.currentState == Root3.STATE.Combat){
-                    myRoot.ChangeState(Root3.STATE.Idle);
-                }
-            }
-        }
+        //if(myRoot.currentState != Root3.STATE.Moving){
+        //    if(myRoot.enemies.Count > 0){
+         //       myRoot.ChangeState(Root3.STATE.Combat);
+        //    }
+        //    else{
+         //       if(myRoot.currentState == Root3.STATE.Combat){
+         //           myRoot.ChangeState(Root3.STATE.Idle);
+         //       }
+         //   }
+        //}
     }
 }
