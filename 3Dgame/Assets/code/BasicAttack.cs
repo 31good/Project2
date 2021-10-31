@@ -39,17 +39,18 @@ public class BasicAttack : MonoBehaviour
             if(myRoot.currentState != Root3.STATE.Moving){
                 myRoot.ChangeState(Root3.STATE.Combat);
                 if(Vector3.Distance(transform.position, targetRoot.transform.position) > myRoot.reach){
-                 myAgent.SetDestination(targetRoot.transform.position);
-                    myAgent.Resume();
+                    myAgent.SetDestination(targetRoot.transform.position);
+                    myAgent.isStopped = false;
                 }
                 else{
-                    myAgent.Stop();
+                    myAgent.isStopped = true;
                     Quaternion rotationToLookAt = Quaternion.LookRotation(targetRoot.transform.position - transform.position);
                     float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref velocityRoto, rotateSpeedWhenAtk* Time.deltaTime);
                     transform.eulerAngles = new Vector3(0,rotationY, 0);
                     if(atkReady){
                         atkReady = false;
                         Invoke("ReadyAction", myRoot.atkSpeed);
+                        //shoot code
                         int dmg = myRoot.atk + Random.Range(-myRoot.atkVar, myRoot.atkVar + 1);
                         targetRoot.DamageTaken(dmg);
                     }

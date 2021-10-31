@@ -39,6 +39,14 @@ public class Root3 : MonoBehaviour
         currentState = state;
         if(myStateText != null) myStateText.text = state.ToString();
     }
+    public void OnTriggerEnter(Collider other){
+        if(other.tag == "enemy"){
+            detected.Add(other.GetComponent<Root3>());
+        }
+    }
+    public void OnTriggerExit(Collider other){
+            detected.Remove(other.GetComponent<Root3>());
+    }
     void Start()
     {
 

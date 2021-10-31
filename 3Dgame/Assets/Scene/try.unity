@@ -417,15 +417,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 83.9
+      value: -10.3
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.2
+      value: 9.24
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -462,6 +462,10 @@ PrefabInstance:
     - target: {fileID: 1365533010250980167, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_Radius
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787600366432390487, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
+      propertyPath: m_TagString
+      value: mechine_gun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
@@ -1986,6 +1990,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 602707144}
     m_Modifications:
+    - target: {fileID: 7331152494727268866, guid: b7af5b847534cf847945d93992ae68a4, type: 3}
+      propertyPath: m_TagString
+      value: mechine_gun
+      objectReference: {fileID: 0}
     - target: {fileID: 7331152495645801322, guid: b7af5b847534cf847945d93992ae68a4, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -2012,7 +2020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7331152495894516847, guid: b7af5b847534cf847945d93992ae68a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -51.65
+      value: -51.6
       objectReference: {fileID: 0}
     - target: {fileID: 7331152495894516847, guid: b7af5b847534cf847945d93992ae68a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7567,6 +7575,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 602707144}
     m_Modifications:
+    - target: {fileID: 1785181724593109051, guid: 98a49aad556c446408cd6700f8eb3781, type: 3}
+      propertyPath: m_TagString
+      value: mechine_gun
+      objectReference: {fileID: 0}
     - target: {fileID: 4008697808370257273, guid: 98a49aad556c446408cd6700f8eb3781, type: 3}
       propertyPath: m_Name
       value: car

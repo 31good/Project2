@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ai
   - ground
+  - mechine_gun
   layers:
   - Default
   - TransparentFX
