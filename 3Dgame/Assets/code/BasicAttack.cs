@@ -51,6 +51,7 @@ public class BasicAttack : MonoBehaviour
                         atkReady = false;
                         Invoke("ReadyAction", myRoot.atkSpeed);
                         //shoot code
+                        myRoot.shoot(targetRoot.transform);
                         int dmg = myRoot.atk + Random.Range(-myRoot.atkVar, myRoot.atkVar + 1);
                         targetRoot.DamageTaken(dmg);
                     }
