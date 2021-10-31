@@ -24,6 +24,7 @@ public class Root3 : MonoBehaviour
     [Header("Other")]
     public GameObject gun;
     public Transform Fire_pos;
+    public float bullet_force = 50f;
     public Transform attack_speed;
     public GameObject Bulletprefab; 
     // Start is called before the first frame update
@@ -46,6 +47,11 @@ public class Root3 : MonoBehaviour
     }
     public void OnTriggerExit(Collider other){
             detected.Remove(other.GetComponent<Root3>());
+    }
+    public void shoot(Transform enemy_pos){
+        GameObject newbullet = Instantiate(Bulletprefab, Fire_pos.position, Quaternion.identity);
+		newbullet.GetComponent<Rigidbody>().AddForce((enemy_pos.position - Fire_pos.position)*bullet_force);
+		//AudioSource.PlayClipAtPoint(audioClip, transform.position);
     }
     void Start()
     {
