@@ -39,15 +39,6 @@ public class Root3 : MonoBehaviour
         currentState = state;
         if(myStateText != null) myStateText.text = state.ToString();
     }
-    public void OnTriggerEnter(Collider other){
-        if(other.tag == "enemy"){
-            detected.Add(other.GetComponent<Root3>());
-            print("add");
-        }
-    }
-    public void OnTriggerExit(Collider other){
-            detected.Remove(other.GetComponent<Root3>());
-    }
     public void shoot(Transform enemy_pos){
         GameObject newbullet = Instantiate(Bulletprefab, Fire_pos.position, Quaternion.identity);
 		newbullet.GetComponent<Rigidbody>().AddForce((enemy_pos.position - Fire_pos.position)*bullet_force);
@@ -62,5 +53,15 @@ public class Root3 : MonoBehaviour
     void Update()
     {
         
+    }
+    void OnTriggerEnter(Collider other){
+        print("1");
+        if(other.tag == "enemy"){
+            detected.Add(other.GetComponent<Root3>());
+            print("add");
+        }
+    }
+    void OnTriggerExit(Collider other){
+            detected.Remove(other.GetComponent<Root3>());
     }
 }

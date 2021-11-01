@@ -19,7 +19,7 @@ public class BasicAttack : MonoBehaviour
     {
         Transform _startpos = gameObject.GetComponent<Transform>();
         myAgent = GetComponent<NavMeshAgent>();
-        Invoke("ReadAction",myRoot.atkSpeed);
+        Invoke("ReadyAction",myRoot.atkSpeed);
     }
 
     // Update is called once per frame
