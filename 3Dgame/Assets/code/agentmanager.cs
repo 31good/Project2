@@ -85,7 +85,7 @@ public class agentmanager : MonoBehaviour
     {
         if (!isMultiSelect) { DeselectUnit(); }
         selected.Add(unit);
-        print("true"+(selected.Count));
+        //print("true"+(selected.Count));
         unit.SetSelected(true);
     }
 
