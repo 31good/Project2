@@ -24,8 +24,9 @@ public class Root3 : MonoBehaviour
     [Header("Other")]
     //public GameObject gun;
     public Transform Fire_pos;
-    public float bullet_force = 50f;
+    public float bullet_force = 500f;
     public GameObject Bulletprefab; 
+    private NavMeshAgent agent;
     // Start is called before the first frame update
     public void DamageTaken(int damage){
         if((damage-def)>=0){
@@ -41,21 +42,21 @@ public class Root3 : MonoBehaviour
     }
     public void shoot(Transform enemy_pos){
         GameObject newbullet = Instantiate(Bulletprefab, Fire_pos.position, Quaternion.identity);
+        newbullet.GetComponent<Transform>().LookAt(enemy_pos);
 		newbullet.GetComponent<Rigidbody>().AddForce((enemy_pos.position - Fire_pos.position)*bullet_force);
 		//AudioSource.PlayClipAtPoint(audioClip, transform.position);
     }
     void Start()
     {
-
+        agent = gameObject.GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        status();
     }
     void OnTriggerEnter(Collider other){
-        print("1");
         if(other.tag == "enemy"){
             detected.Add(other.GetComponent<Root3>());
             print("add");
@@ -63,5 +64,15 @@ public class Root3 : MonoBehaviour
     }
     void OnTriggerExit(Collider other){
             detected.Remove(other.GetComponent<Root3>());
+    }
+    void status(){
+
+        if((agent.destination.x - agent.nextPosition.x)<0.5f && (agent.destination.z - agent.nextPosition.x) <0.5f){
+            currentState = STATE.Idle;
+        }
+        else{
+            currentState = STATE.Moving;
+            agent.isStopped = false;
+        }
     }
 }

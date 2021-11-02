@@ -5,6 +5,7 @@ using UnityEngine;
 public class agentmanager : MonoBehaviour
 {
     RaycastHit hit;
+    int layer;
     List<UnitController> selected = new List<UnitController>();
     bool isDragging = false;
     Vector3 mousePosition;
@@ -68,15 +69,16 @@ public class agentmanager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1) && selected.Count > 0)
         {
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+            int layer = 1<<10;
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit,1000, layer))
             {
-                if (hit.transform.CompareTag("ground"))
-                {
+                //if (hit.transform.CompareTag("ground"))
+                //{
                     foreach (var ai in selected)
                     {
                         ai.MoveUnit(hit.point);
                     }
-                }
+                //}
             }
         }
     }

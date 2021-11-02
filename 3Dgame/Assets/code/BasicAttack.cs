@@ -32,7 +32,6 @@ public class BasicAttack : MonoBehaviour
             }
         }
         if(enimies.Count > 0){
-            print("hi");
             targetRoot = enimies[0];
             foreach(var enemy in enimies){
                 float dist1 = Vector3.Distance(transform.position, targetRoot.transform.position);
@@ -40,6 +39,7 @@ public class BasicAttack : MonoBehaviour
                 if(dist1>dist2) targetRoot = enemy;
             }
             if(myRoot.currentState != Root3.STATE.Moving){
+                print("hi");
                 myRoot.ChangeState(Root3.STATE.Combat);
                 if(Vector3.Distance(transform.position, targetRoot.transform.position) > myRoot.reach){
                     myAgent.SetDestination(targetRoot.transform.position);
@@ -51,6 +51,7 @@ public class BasicAttack : MonoBehaviour
                     float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref velocityRoto, rotateSpeedWhenAtk* Time.deltaTime);
                     transform.eulerAngles = new Vector3(0,rotationY, 0);
                     if(atkReady){
+                                        print("hi");
                         atkReady = false;
                         Invoke("ReadyAction", myRoot.atkSpeed);
                         //shoot code
