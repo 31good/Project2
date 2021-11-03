@@ -17,6 +17,7 @@ public class UnitController : MonoBehaviour
     public void SetSelected(bool isSelected)
     {
         //TODO: 被选中底下有光
-        //transform.Find("highligh").gameObject.SetActive(isSelected);
+        transform.Find("highlight").gameObject.SetActive(isSelected);
+        //print(1);
     }
 }

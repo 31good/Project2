@@ -30,11 +30,12 @@ public class agentmanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //print(selected.Count);
+        //print(isDragging);
         if (Input.GetMouseButtonDown(0))
         {
+            isDragging = true;
             mousePosition = Input.mousePosition;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
+            /*if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
             {
                 if (hit.transform.CompareTag("ai"))
                 {
@@ -48,14 +49,13 @@ public class agentmanager : MonoBehaviour
                 }
                 /*foreach(GameObject a in agents){
                     a.GetComponent<AIControl>().agent.SetDestination(hit.point);
-                }*/
-            }
+                }
+            }*/
         }
         if (Input.GetMouseButtonUp(0))
         {
             if (isDragging)
             {
-                DeselectUnit();
                 foreach (var ai in GameObject.FindGameObjectsWithTag("ai"))
                 {
                     if (IsWithinSelect(ai.transform))
@@ -65,19 +65,20 @@ public class agentmanager : MonoBehaviour
                 }
                 isDragging = false;
             }
+            //isDragging = false;
         }
 
         if (Input.GetMouseButtonDown(1) && selected.Count > 0)
         {
-            int layer = 1<<10;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit,1000 , layer))
+            int layer = 1 << 10;
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 1000, layer))
             {
                 //if (hit.transform.CompareTag("ground"))
                 //{
-                    foreach (var ai in selected)
-                    {
-                        ai.MoveUnit(hit.point);
-                    }
+                foreach (var ai in selected)
+                {
+                    ai.MoveUnit(hit.point);
+                }
                 //}
             }
         }
