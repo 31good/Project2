@@ -51,7 +51,6 @@ public class BasicAttack : MonoBehaviour
                     float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref velocityRoto, rotateSpeedWhenAtk* Time.deltaTime);
                     transform.eulerAngles = new Vector3(0,rotationY, 0);
                     if(atkReady){
-                                        print("hi");
                         atkReady = false;
                         Invoke("ReadyAction", myRoot.atkSpeed);
                         //shoot code

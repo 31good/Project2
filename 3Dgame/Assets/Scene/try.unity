@@ -439,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.24
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980164, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -479,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365533010250980167, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_Radius
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7787600366432390487, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
       propertyPath: m_TagString
@@ -3321,6 +3321,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72d1e2936236e345824148908110ea6, type: 3}
+--- !u!1 &854708079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1365533010250980165, guid: 605fa90503efc474eb05ea9cd17ee1fe, type: 3}
+  m_PrefabInstance: {fileID: 87383512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &854708082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854708079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4051bc186129f62448ad538af5c968f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  myStateText: {fileID: 0}
+  hp: 50
+  def: 5
+  atk: 10
+  atkVar: 2
+  atkSpeed: 2.5
+  reach: 20
+  attack_radius: 10
+  detected: []
+  Fire_pos: {fileID: 1323902892}
+  bullet_force: 500
+  Bulletprefab: {fileID: 1204952308834830661, guid: 944c2dd5c31d3d448903796cad94b773, type: 3}
+--- !u!114 &854708083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854708079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbca47c3cb94bf1488898abec572221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRoot: {fileID: 854708082}
+  targetRoot: {fileID: 0}
+  enimies: []
+  atkReady: 0
+  myAgent: {fileID: 0}
+  rotateSpeedWhenAtk: 1
+--- !u!135 &854708084
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854708079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 20
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &854708085
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854708079}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &862315503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4028,65 +4105,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5582280114302159144, guid: f72d1e2936236e345824148908110ea6, type: 3}
   m_PrefabInstance: {fileID: 1056472684}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1119599982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2942957419747463978, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
-  m_PrefabInstance: {fileID: 956272328}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1119599986
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119599982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.410995, y: 8.338518, z: 5.4230447}
-  m_Center: {x: 0.00000017881393, y: -1.6434704, z: 2.711521}
---- !u!114 &1119599987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119599982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4051bc186129f62448ad538af5c968f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
-  myStateText: {fileID: 0}
-  hp: 50
-  def: 5
-  atk: 10
-  atkVar: 2
-  atkSpeed: 2.5
-  reach: 20
-  attack_radius: 10
-  detected: []
-  Fire_pos: {fileID: 0}
-  bullet_force: 50
-  Bulletprefab: {fileID: 0}
---- !u!54 &1119599988
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119599982}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1128380627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5357,6 +5375,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5582280114302159144, guid: f72d1e2936236e345824148908110ea6, type: 3}
   m_PrefabInstance: {fileID: 1839535027}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1323902891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1323902892}
+  m_Layer: 0
+  m_Name: fire_pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1323902892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323902891}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.013, y: 0.84, z: 4.256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 87383513}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330092593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5668,6 +5716,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5582280114302159144, guid: f72d1e2936236e345824148908110ea6, type: 3}
   m_PrefabInstance: {fileID: 570098100}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1383553027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2467817934220494969, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
+  m_PrefabInstance: {fileID: 956272328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &1383553028 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 2467817934220494970, guid: f76a7f1aca554c0418d9305fb0c91726, type: 3}
+  m_PrefabInstance: {fileID: 956272328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1383553030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383553027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4051bc186129f62448ad538af5c968f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  myStateText: {fileID: 0}
+  hp: 50
+  def: 5
+  atk: 10
+  atkVar: 2
+  atkSpeed: 2.5
+  reach: 20
+  attack_radius: 10
+  detected: []
+  Fire_pos: {fileID: 0}
+  bullet_force: 500
+  Bulletprefab: {fileID: 0}
+--- !u!114 &1383553031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383553027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbca47c3cb94bf1488898abec572221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRoot: {fileID: 1383553030}
+  targetRoot: {fileID: 0}
+  enimies: []
+  atkReady: 0
+  myAgent: {fileID: 1383553028}
+  rotateSpeedWhenAtk: 1
 --- !u!1001 &1391654790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8721,6 +8822,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 602707144}
     m_Modifications:
+    - target: {fileID: 5715071274228185580, guid: 71fcf69b22a623249912be07d85e2ea0, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5715071274228185581, guid: 71fcf69b22a623249912be07d85e2ea0, type: 3}
       propertyPath: m_RootOrder
       value: 3

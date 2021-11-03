@@ -70,7 +70,7 @@ public class agentmanager : MonoBehaviour
         if (Input.GetMouseButtonDown(1) && selected.Count > 0)
         {
             int layer = 1<<10;
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit,1000, layer))
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit,1000 , layer))
             {
                 //if (hit.transform.CompareTag("ground"))
                 //{
