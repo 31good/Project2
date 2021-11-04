@@ -28,7 +28,8 @@ public class BasicAttack : MonoBehaviour
         enimies.Clear();
         foreach(Root3 detectedObject in myRoot.detected){
             if (detectedObject != null){
-                if(detectedObject.tag == "enemy") enimies.Add(detectedObject);
+                //if(detectedObject.tag == "enemy") 
+                enimies.Add(detectedObject);
             }
         }
         if(enimies.Count > 0){

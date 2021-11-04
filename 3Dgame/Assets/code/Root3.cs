@@ -6,10 +6,12 @@ using UnityEngine.AI;
 public class Root3 : MonoBehaviour
 {
     public enum STATE {Idle, Moving, Combat, Following};
+    public enum target {enemy, ai};
     [Header("State")]
     public STATE currentState;
     public TextMesh myStateText;
     [Header("Stats")]
+    public target target1;
     public int hp = 50;
     public int def = 5;
     public int atk = 10;
@@ -24,7 +26,7 @@ public class Root3 : MonoBehaviour
     [Header("Other")]
     //public GameObject gun;
     public Transform Fire_pos;
-    public float bullet_force = 500f;
+    public float bullet_force = 50f;
     public GameObject Bulletprefab; 
     private NavMeshAgent agent;
     // Start is called before the first frame update
@@ -57,22 +59,31 @@ public class Root3 : MonoBehaviour
         status();
     }
     void OnTriggerEnter(Collider other){
-        if(other.tag == "enemy"){
+        if (target1 == target.enemy){
+            if(other.tag == "enemy"){
             detected.Add(other.GetComponent<Root3>());
             print("add");
+            }
+        }
+        else{
+            if(other.tag == "ai"){
+            detected.Add(other.GetComponent<Root3>());
+            print("add");
+        }
         }
     }
     void OnTriggerExit(Collider other){
             detected.Remove(other.GetComponent<Root3>());
     }
     void status(){
-
-        if((agent.destination.x - agent.nextPosition.x)<0.5f && (agent.destination.z - agent.nextPosition.x) <0.5f){
+        if(this.tag == "ai"){
+            if((agent.destination.x - agent.nextPosition.x)<0.5f && (agent.destination.z - agent.nextPosition.x) <0.5f){
             currentState = STATE.Idle;
-        }
+            }
         else{
             currentState = STATE.Moving;
             agent.isStopped = false;
+            }
         }
     }
 }

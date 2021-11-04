@@ -261,6 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   myStateText: {fileID: 0}
+  target1: 0
   hp: 50
   def: 5
   atk: 10
