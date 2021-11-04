@@ -1,39 +1,2153 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 19043.1320; Version 2009; 64bit' Language: 'zh' Physical Memory: 8084 MB
+OS: 'Windows 10 Home China; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 8065 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Project2/3Dgame
+C:/Users/15801/Desktop/Project2/3Dgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59546
-Successfully changed project path to: D:/Project2/3Dgame
-D:/Project2/3Dgame
+57173
+Successfully changed project path to: C:/Users/15801/Desktop/Project2/3Dgame
+C:/Users/15801/Desktop/Project2/3Dgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 2074.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path D:/unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project2/3Dgame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/15801/Desktop/Project2/3Dgame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     1979 MB
-    Driver:   30.0.14.9649
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'D:/unity/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010358 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5910ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1844.
+Total: 2.558500 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.336500 ms  DeleteObjects: 0.053500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet_Casing.prefab
+  artifactKey: Guid(0c1be510a5f00b449ae006461270ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet_Casing.prefab using Guid(0c1be510a5f00b449ae006461270ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b504d1057e567a327bae95bcd9fa58c5') in 0.058194 seconds 
+  Import took 0.061726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab
+  artifactKey: Guid(00e59d6264b845d4ab86c04120aca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab using Guid(00e59d6264b845d4ab86c04120aca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6286b039e1415cc302d733e5329db6e6') in 0.011204 seconds 
+  Import took 0.014393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_D.prefab
+  artifactKey: Guid(3c176cc847d5e7041b6f8077278e9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_D.prefab using Guid(3c176cc847d5e7041b6f8077278e9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960cc4cf67f8a1f0c8995296069a0e0') in 0.013497 seconds 
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Barrels/Prefab/Barrels(1).prefab
+  artifactKey: Guid(5c6ad8a67c9a6eb449f746c270e1d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Prefab/Barrels(1).prefab using Guid(5c6ad8a67c9a6eb449f746c270e1d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca20220478ff66eaf5378f16e25d4e5') in 0.008305 seconds 
+  Import took 0.012337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Explosions/Barrel Explosion Prefab.prefab
+  artifactKey: Guid(ca26d7307564ff848b29e32bbe6279ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Explosions/Barrel Explosion Prefab.prefab using Guid(ca26d7307564ff848b29e32bbe6279ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b128b8a315a66e86ae91e24070614e8') in 0.148346 seconds 
+  Import took 0.152482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Barrels/Prefab/Barrels(4).prefab
+  artifactKey: Guid(3f977774962264d44b97f2b61673e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Prefab/Barrels(4).prefab using Guid(3f977774962264d44b97f2b61673e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea277299456529e6c021490ecbcee8') in 0.007721 seconds 
+  Import took 0.010665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_BoxGreyS.prefab
+  artifactKey: Guid(689bce6208bc9f441bfad84d4492dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_BoxGreyS.prefab using Guid(689bce6208bc9f441bfad84d4492dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b521c4a8c9c1208c3b063a4b7b61c83') in 0.007484 seconds 
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl0.prefab
+  artifactKey: Guid(ff3a96c838eab1c469d00c2d8e56268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl0.prefab using Guid(ff3a96c838eab1c469d00c2d8e56268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd669111d690d6c43ec0171aff1e0a14f') in 0.009732 seconds 
+  Import took 0.012989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Empty.prefab
+  artifactKey: Guid(74eb60743d2530a43a175d9069b2d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Empty.prefab using Guid(74eb60743d2530a43a175d9069b2d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026803fe4866377656de0a9e2b2f58d4') in 0.010778 seconds 
+  Import took 0.013688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_CartMiniS.prefab
+  artifactKey: Guid(eeacaf4888606d34684f3f717fa94541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_CartMiniS.prefab using Guid(eeacaf4888606d34684f3f717fa94541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6229a77da61dfe2edd2d3e7e04cfd67') in 0.007960 seconds 
+  Import took 0.012273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Barrels/Prefab/Barrels(3).prefab
+  artifactKey: Guid(34ab71bbe4db4864ca5a58734e958d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Prefab/Barrels(3).prefab using Guid(34ab71bbe4db4864ca5a58734e958d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e483734f1adc6835ddc7b7ac4bc3b67c') in 0.008218 seconds 
+  Import took 0.011400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_StandardS.prefab
+  artifactKey: Guid(b1b88de1f14472c48a2128f06a2a92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_StandardS.prefab using Guid(b1b88de1f14472c48a2128f06a2a92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34cbb185dc7436c5bf9e24f9ff3973b') in 0.010075 seconds 
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl1Merged.prefab
+  artifactKey: Guid(4ac69342467d16747a58e725fb68e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl1Merged.prefab using Guid(4ac69342467d16747a58e725fb68e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ed21809b7c55b10d292707a5ccbb07') in 0.010607 seconds 
+  Import took 0.013947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/coded prefab/car.prefab
+  artifactKey: Guid(98a49aad556c446408cd6700f8eb3781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/car.prefab using Guid(98a49aad556c446408cd6700f8eb3781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d8d12cefe54025529c8b6921e6c14') in 0.018419 seconds 
+  Import took 0.021886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_TriPlatesS.prefab
+  artifactKey: Guid(686fd8e833c62714e8d90ea73c3873e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_TriPlatesS.prefab using Guid(686fd8e833c62714e8d90ea73c3873e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eca9d6f508259fd151860592577fb27') in 0.007574 seconds 
+  Import took 0.012482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl3Merged.prefab
+  artifactKey: Guid(ff8fad4f6313d304ca0397c92491d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl3Merged.prefab using Guid(ff8fad4f6313d304ca0397c92491d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcaa95d397b705f19ac9d9e9685db31') in 0.009664 seconds 
+  Import took 0.012983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl4Merged.prefab
+  artifactKey: Guid(aed44a4518f9eb74194242f66a30add7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl4Merged.prefab using Guid(aed44a4518f9eb74194242f66a30add7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b94d0b3c0e55bd8eaeb1d588db4b4a') in 0.010538 seconds 
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_B.prefab
+  artifactKey: Guid(6d7d1e6e890b8804d930766d6c6074bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_B.prefab using Guid(6d7d1e6e890b8804d930766d6c6074bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790d52cced4fc9c413ecbda8fa0a4c6a') in 0.008441 seconds 
+  Import took 0.012973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_BaseS.prefab
+  artifactKey: Guid(7973625de1e21be41a1ce05e89d8d9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_BaseS.prefab using Guid(7973625de1e21be41a1ce05e89d8d9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d657d2e739c8fafd911c89469d9da8') in 0.008769 seconds 
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl2.prefab
+  artifactKey: Guid(d4c03a0ee489d4848b834ed55e04e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl2.prefab using Guid(d4c03a0ee489d4848b834ed55e04e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266c3efe999825a14f6931b154d694d8') in 0.009225 seconds 
+  Import took 0.012697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl0Merged.prefab
+  artifactKey: Guid(0c3dbdf72851e534c91c94a8f57cb0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl0Merged.prefab using Guid(0c3dbdf72851e534c91c94a8f57cb0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1777d5ab0b7a4829512c0ab2ed2f288e') in 0.008194 seconds 
+  Import took 0.013240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl6.prefab
+  artifactKey: Guid(de29f60e8d6b3b740b157c39d45e34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl6.prefab using Guid(de29f60e8d6b3b740b157c39d45e34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cfae585f38bd4c82d78422e0828525') in 0.010613 seconds 
+  Import took 0.013831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_WideS.prefab
+  artifactKey: Guid(13ca8a7d51b715a4582fd610ff4aa616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_WideS.prefab using Guid(13ca8a7d51b715a4582fd610ff4aa616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df192db67c26e8a1ce5ac43a41febd0') in 0.010477 seconds 
+  Import took 0.014371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Barrels/Prefab/Barrels(2).prefab
+  artifactKey: Guid(49c4b31669070a14c8702b9eabf4f76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Prefab/Barrels(2).prefab using Guid(49c4b31669070a14c8702b9eabf4f76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eae14ce32dc9a751629616d69d2ddb') in 0.010981 seconds 
+  Import took 0.014089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl2Merge.prefab
+  artifactKey: Guid(7ac8f970f126d084bb5f1238d1e81022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl2Merge.prefab using Guid(7ac8f970f126d084bb5f1238d1e81022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b128ea08cba981981efde2475b447893') in 0.010227 seconds 
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_D.prefab
+  artifactKey: Guid(416f41b03406bba4d8a9e8817c19d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_D.prefab using Guid(416f41b03406bba4d8a9e8817c19d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679d6015e984ac87793a4b551e8c2840') in 0.010129 seconds 
+  Import took 0.014278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_A.prefab
+  artifactKey: Guid(1ac738399daec134abbf0b370a3bd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_A.prefab using Guid(1ac738399daec134abbf0b370a3bd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42537bfecf700ebda31619981e7af34c') in 0.008582 seconds 
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Boeng C-17/Crashed_Boeing.prefab
+  artifactKey: Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boeng C-17/Crashed_Boeing.prefab using Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af89fe6e13d3af412e2e21dc5fde852f') in 0.009132 seconds 
+  Import took 0.013638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl4.prefab
+  artifactKey: Guid(d318f8f7fd7a4d544a06b646d0d84d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl4.prefab using Guid(d318f8f7fd7a4d544a06b646d0d84d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4d213e08f9e3b6c3d7a0ec94840514') in 0.011298 seconds 
+  Import took 0.014465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl1.prefab
+  artifactKey: Guid(7902e8dc4724ee948a69a63e9324308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl1.prefab using Guid(7902e8dc4724ee948a69a63e9324308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f215a0b1c4f19d44e7fa94e9a7fe3b8') in 0.010847 seconds 
+  Import took 0.014335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_A.prefab
+  artifactKey: Guid(bacd7f61ee429894dade69dcf5014462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_A.prefab using Guid(bacd7f61ee429894dade69dcf5014462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a692587f042d0ec4df3d8885a6f515') in 0.010203 seconds 
+  Import took 0.013532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab
+  artifactKey: Guid(b9ca752c3df4dec4cadafd04fc5d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab using Guid(b9ca752c3df4dec4cadafd04fc5d444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c3f84f1bc1ab9ffc538301e6124e32') in 0.098731 seconds 
+  Import took 0.102927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Guns/Assault_Rifle_01.prefab
+  artifactKey: Guid(33f6247810b654041bccca4adbd93f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Guns/Assault_Rifle_01.prefab using Guid(33f6247810b654041bccca4adbd93f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda313b6aa2ac409726ece23bdfb8b7b') in 0.008004 seconds 
+  Import took 0.011099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Full.prefab
+  artifactKey: Guid(6e7ab7bf68ad6f94ab710de9a022e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Full.prefab using Guid(6e7ab7bf68ad6f94ab710de9a022e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268cb553a3e4d97c9abaf82f56f627ec') in 0.009251 seconds 
+  Import took 0.012214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Prefabs/bullet_prefab.prefab
+  artifactKey: Guid(944c2dd5c31d3d448903796cad94b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/bullet_prefab.prefab using Guid(944c2dd5c31d3d448903796cad94b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bb79b3afad8b251a9a9e6382aca43c') in 0.101746 seconds 
+  Import took 0.105595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_C.prefab
+  artifactKey: Guid(13bfdfe90b3b72d489e4f71f7c96de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_C.prefab using Guid(13bfdfe90b3b72d489e4f71f7c96de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4737c6bbbb22c4fac6e7ae91d4b65186') in 0.009260 seconds 
+  Import took 0.012703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl3.prefab
+  artifactKey: Guid(dd09ad43d7679354b996c106016ddf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWallsForExplosions/CornerWallLvl3.prefab using Guid(dd09ad43d7679354b996c106016ddf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5690b2a1b8cafc9c7777075b1e48c') in 0.009888 seconds 
+  Import took 0.013538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/coded prefab/car_enemy.prefab
+  artifactKey: Guid(d97704029620d524c975cb185797ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/car_enemy.prefab using Guid(d97704029620d524c975cb185797ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575d6eff3434ea1cb1aa44fccbc63f8a') in 0.014479 seconds 
+  Import took 0.018741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_A.prefab
+  artifactKey: Guid(d1f328a3532b9ea4289e159084896b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_A.prefab using Guid(d1f328a3532b9ea4289e159084896b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5785731b3f0a2d579898143f20fe59df') in 0.013261 seconds 
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_B.prefab
+  artifactKey: Guid(24dc1d3ed2f326b4cad028ce766b7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_B.prefab using Guid(24dc1d3ed2f326b4cad028ce766b7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c0637d31bc10bbca0ecd39193ee7f7') in 0.009598 seconds 
+  Import took 0.013637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab
+  artifactKey: Guid(7be59128a5ee3424faf33d7a408c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab using Guid(7be59128a5ee3424faf33d7a408c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c147dda731f16576e3c4ece3b5859fc5') in 0.015359 seconds 
+  Import took 0.018580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl6Merged.prefab
+  artifactKey: Guid(d6c8964a7f3e1284797fa459cfbe00a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl6Merged.prefab using Guid(d6c8964a7f3e1284797fa459cfbe00a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec725f4b157e8983150cd09e79acc791') in 0.011599 seconds 
+  Import took 0.014928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_C.prefab
+  artifactKey: Guid(19835eeafd8e9e443afc050bae9fb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_C.prefab using Guid(19835eeafd8e9e443afc050bae9fb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514b1346f2df6e70702698481fb46342') in 0.009093 seconds 
+  Import took 0.014973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Projectiles/Bullet/Bullet_Prefab.prefab
+  artifactKey: Guid(5953171a59c27394e9ad5cbb564affa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Projectiles/Bullet/Bullet_Prefab.prefab using Guid(5953171a59c27394e9ad5cbb564affa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c68e7bdc94e3752b3095bc32eee38f') in 0.029149 seconds 
+  Import took 0.033273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_B.prefab
+  artifactKey: Guid(37a916bdb5401c8498accf7d5fd08738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_B.prefab using Guid(37a916bdb5401c8498accf7d5fd08738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4f8e8aa94540e67481bf3d65d6e0bd') in 0.012340 seconds 
+  Import took 0.016308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_HolderS.prefab
+  artifactKey: Guid(8d60ce487f563c24982c53e88f1dd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/Prefabs/Barrel_HolderS.prefab using Guid(8d60ce487f563c24982c53e88f1dd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8857c6be737c4242c43a937bd592db90') in 0.009126 seconds 
+  Import took 0.013981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.522236 seconds.
+  path: Assets/Prefabs/unit_Ornithopter_Heavy_B.prefab
+  artifactKey: Guid(9e213906f11d7a74289412767c0915cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/unit_Ornithopter_Heavy_B.prefab using Guid(9e213906f11d7a74289412767c0915cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b65e1d6e0d518b51eec3971e300c8') in 0.014813 seconds 
+  Import took 0.017885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Prefabs/unit_Quad_B.prefab
+  artifactKey: Guid(9996a6382430c214db8933ad0aa05a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/unit_Quad_B.prefab using Guid(9996a6382430c214db8933ad0aa05a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b402423b2c5f90bee5c1396db21c79') in 0.012778 seconds 
+  Import took 0.015840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Prefabs/unit_Ornithopter_Heavy_B.prefab
+  artifactKey: Guid(9e213906f11d7a74289412767c0915cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/unit_Ornithopter_Heavy_B.prefab using Guid(9e213906f11d7a74289412767c0915cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b65e1d6e0d518b51eec3971e300c8') in 0.009821 seconds 
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/unit_Quad_B.prefab
+  artifactKey: Guid(9996a6382430c214db8933ad0aa05a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/unit_Quad_B.prefab using Guid(9996a6382430c214db8933ad0aa05a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b402423b2c5f90bee5c1396db21c79') in 0.010795 seconds 
+  Import took 0.014036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.662585 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Arms/Assault_Rifle_01/arms_assault_rifle_01.fbx
+  artifactKey: Guid(182b7f11db452bc458d35a6c9eced06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Arms/Assault_Rifle_01/arms_assault_rifle_01.fbx using Guid(182b7f11db452bc458d35a6c9eced06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6568c7b17ac910800e10e462ecdd545') in 0.092050 seconds 
+  Import took 0.095218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_B.FBX
+  artifactKey: Guid(f576be1e82fd52a49811a5801fad04b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_B.FBX using Guid(f576be1e82fd52a49811a5801fad04b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf35cfe9d58fd55ee56d37b76d16958') in 0.011753 seconds 
+  Import took 0.014527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel_destructible.fbx
+  artifactKey: Guid(6c31b40ee2eeadc49b5b114043c6f5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel_destructible.fbx using Guid(6c31b40ee2eeadc49b5b114043c6f5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e43cb9a87a967a345cddd9c00702a') in 0.010753 seconds 
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/CastlePack/FBX/FloorTorch.fbx
+  artifactKey: Guid(8de0996ac7a0c764495e0f39491372dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/FloorTorch.fbx using Guid(8de0996ac7a0c764495e0f39491372dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff390219ab2379142fcd94d1172fd5f3') in 0.008051 seconds 
+  Import took 0.012249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_A.FBX
+  artifactKey: Guid(e52b47896db170a4da2d91415018518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_A.FBX using Guid(e52b47896db170a4da2d91415018518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9160d7fb8ef164f3310a45d9bdd2c7f') in 0.009462 seconds 
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Grenades/hand_grenade.fbx
+  artifactKey: Guid(769ce5ae38a9e85458d672ac28752435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Grenades/hand_grenade.fbx using Guid(769ce5ae38a9e85458d672ac28752435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7b73d43217c4ce437b71b78a389f9f') in 0.011617 seconds 
+  Import took 0.014310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl0.fbx
+  artifactKey: Guid(3397c5292e3d0e84a9d41fe86f2a64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl0.fbx using Guid(3397c5292e3d0e84a9d41fe86f2a64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed6815f9d76026f034ec1ec9f7f2fb2') in 0.007177 seconds 
+  Import took 0.011931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6.fbx
+  artifactKey: Guid(b0e9c9f557c2d1644a9a32456f7e88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6.fbx using Guid(b0e9c9f557c2d1644a9a32456f7e88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cdc74dd3a571214baf0037150a2418') in 0.007807 seconds 
+  Import took 0.011740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6Merged.fbx
+  artifactKey: Guid(bfcfd1c1f1a553f4dbdd4ae37bfc3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6Merged.fbx using Guid(bfcfd1c1f1a553f4dbdd4ae37bfc3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f69d7ca351941a847a07d8a61b33a1c') in 0.004629 seconds 
+  Import took 0.008809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_B.FBX
+  artifactKey: Guid(14c00faa70c1a904aaf62dd09833653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_B.FBX using Guid(14c00faa70c1a904aaf62dd09833653c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56400ea2a4d668d44afdd47cf2ec7318') in 0.010016 seconds 
+  Import took 0.013621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_A.FBX
+  artifactKey: Guid(02b34ebde846a8e40b7aa18f54b9e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_A.FBX using Guid(02b34ebde846a8e40b7aa18f54b9e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0d6385452a787171153d86abf019c7') in 0.003952 seconds 
+  Import took 0.006911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_D.FBX
+  artifactKey: Guid(c0f2f1a0dcad3f04a81a9205bdb3f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_D.FBX using Guid(c0f2f1a0dcad3f04a81a9205bdb3f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b31fa8adfdac841d0d19af96e46cea4') in 0.009055 seconds 
+  Import took 0.013609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Boeng C-17/Materials/Crashed_Boeing.fbx
+  artifactKey: Guid(73121e8c0d101a741a34b39f21f69697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boeng C-17/Materials/Crashed_Boeing.fbx using Guid(73121e8c0d101a741a34b39f21f69697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff773bd209ed45c2e29a24a8415f5d') in 0.007046 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_full.fbx
+  artifactKey: Guid(e519d1fbc0246af438bb647b352d141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_full.fbx using Guid(e519d1fbc0246af438bb647b352d141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5238f6deb95231e86d51ee1fbb7c8bfb') in 0.008802 seconds 
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_A.FBX
+  artifactKey: Guid(252356935cbc7a2419fd9874a0d402f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_A.FBX using Guid(252356935cbc7a2419fd9874a0d402f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fb75689cbd24b63d2007f203b9670c') in 0.005173 seconds 
+  Import took 0.008311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Arms/Handgun_01/arms_handgun_01.fbx
+  artifactKey: Guid(56ec0b9a5b8762642811ea26a5242e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Arms/Handgun_01/arms_handgun_01.fbx using Guid(56ec0b9a5b8762642811ea26a5242e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f278d9f687eedabedc970701345fe0a4') in 0.011263 seconds 
+  Import took 0.015039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_B.FBX
+  artifactKey: Guid(6dac9ce037d5e524698b2c301fcf307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_B.FBX using Guid(6dac9ce037d5e524698b2c301fcf307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb13492186560e45fef7fabb1f8313bb') in 0.005851 seconds 
+  Import took 0.010349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_full.fbx
+  artifactKey: Guid(e4961a9972e16ef48bf11f65ab2ca01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_full.fbx using Guid(e4961a9972e16ef48bf11f65ab2ca01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5358dfe5444eb3109591aa1125961dae') in 0.010037 seconds 
+  Import took 0.014264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_C.FBX
+  artifactKey: Guid(d89d42738199a474a87a4cf2630778fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_C.FBX using Guid(d89d42738199a474a87a4cf2630778fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cae602ca5f096579c0342df1316751') in 0.004341 seconds 
+  Import took 0.007486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_D.FBX
+  artifactKey: Guid(678218d7695047b46a833a4efbfa8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_D.FBX using Guid(678218d7695047b46a833a4efbfa8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1496dc68ea1be47a02c2eaea1f14e') in 0.010608 seconds 
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_D.FBX
+  artifactKey: Guid(7790706308f7bef4aa3138699cb89dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_D.FBX using Guid(7790706308f7bef4aa3138699cb89dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b05f85a9ff0d1084aa2461484bcb5f4') in 0.008674 seconds 
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Bullets_&_Casings/big_bullet_casing.fbx
+  artifactKey: Guid(497b83bec4126e148b7f98358415699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Bullets_&_Casings/big_bullet_casing.fbx using Guid(497b83bec4126e148b7f98358415699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137245ef82285b95c6bec3fd3c27e43b') in 0.008282 seconds 
+  Import took 0.011452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl3.fbx
+  artifactKey: Guid(95cdcf61e2e550048b199bbd72aadaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl3.fbx using Guid(95cdcf61e2e550048b199bbd72aadaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcea5e112f096693f80d362744408a5') in 0.008836 seconds 
+  Import took 0.012174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Guns/Handgun_01/handgun_01.fbx
+  artifactKey: Guid(7d3e381b0d85d9f44925d515130ce3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Guns/Handgun_01/handgun_01.fbx using Guid(7d3e381b0d85d9f44925d515130ce3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb30f0c368c27e2f2d8ca0c1e0b5f42') in 0.011223 seconds 
+  Import took 0.014593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_C.FBX
+  artifactKey: Guid(d80ae1532f3b9a54ca18ba2e913cca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_C.FBX using Guid(d80ae1532f3b9a54ca18ba2e913cca61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c31d3c06a386a7113b2a495b5f9c0') in 0.008641 seconds 
+  Import took 0.012003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl4.fbx
+  artifactKey: Guid(8aabe0f30cc02d046b93f0e59c9ee77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl4.fbx using Guid(8aabe0f30cc02d046b93f0e59c9ee77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dc48290781547d3d212fe966741088') in 0.009246 seconds 
+  Import took 0.013302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel.fbx
+  artifactKey: Guid(a037e294496f0f5419fa9b8c01d2ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel.fbx using Guid(a037e294496f0f5419fa9b8c01d2ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b1616326c20295ad3c2a3a040912dc') in 0.009581 seconds 
+  Import took 0.012579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_C.FBX
+  artifactKey: Guid(52e1cc0d6cb8dd14eab021cfc6d8b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Small_C.FBX using Guid(52e1cc0d6cb8dd14eab021cfc6d8b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd01f4732d73509cbb609ef3d7148515') in 0.009206 seconds 
+  Import took 0.013338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl1Merged.fbx
+  artifactKey: Guid(31075f81287957e49844ff5ce515d8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl1Merged.fbx using Guid(31075f81287957e49844ff5ce515d8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e4fa06c98d3eb78edda51aa296ce11') in 0.005970 seconds 
+  Import took 0.008947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Barrels/Mesh/Barrels_mesh(1).FBX
+  artifactKey: Guid(6f34dab31430d61499b12c0e298e59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Mesh/Barrels_mesh(1).FBX using Guid(6f34dab31430d61499b12c0e298e59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7e15a460516782a5692e46b60275b5') in 0.010467 seconds 
+  Import took 0.013865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl4Merged.fbx
+  artifactKey: Guid(4c3a69852bd4ce549bd1564f5fe050b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl4Merged.fbx using Guid(4c3a69852bd4ce549bd1564f5fe050b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80d6d01f294ea13206c9daf969072f9') in 0.005058 seconds 
+  Import took 0.008772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Guns/Assault_Rifle_01/assault_rifle_01.fbx
+  artifactKey: Guid(4974c3aa5aa3dca4e847ca65904285a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Guns/Assault_Rifle_01/assault_rifle_01.fbx using Guid(4974c3aa5aa3dca4e847ca65904285a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e339b547b5f40f0ac43c46d7c926e1dc') in 0.009636 seconds 
+  Import took 0.012854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_C.FBX
+  artifactKey: Guid(9f6cc706cf11b994f8b577c5bc3bd50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_C.FBX using Guid(9f6cc706cf11b994f8b577c5bc3bd50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8799175b088324e84c917c911459ec') in 0.010489 seconds 
+  Import took 0.013444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_empty.fbx
+  artifactKey: Guid(916efe20fd3c2e64d9def61ee6c3d381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_empty.fbx using Guid(916efe20fd3c2e64d9def61ee6c3d381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e7ffb3c1660d349a4a9d96f5182014') in 0.008266 seconds 
+  Import took 0.012704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_A.FBX
+  artifactKey: Guid(ad24bf1b468fe9a4a96cbdd5516a92f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_A.FBX using Guid(ad24bf1b468fe9a4a96cbdd5516a92f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9902a1902e2a1b282b161c1dac09f0e') in 0.008309 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_D.FBX
+  artifactKey: Guid(bdbf10ca3b99cfa41a6a55a4a479987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Cliff_Base_D.FBX using Guid(bdbf10ca3b99cfa41a6a55a4a479987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771560479af026c49427cb7529c7371b') in 0.005016 seconds 
+  Import took 0.009218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_B.FBX
+  artifactKey: Guid(d6cb563579aaff3428da7e53f95332bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Rock_Large_B.FBX using Guid(d6cb563579aaff3428da7e53f95332bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72043c8a70cf1df8e12e2dc41cfa8d6') in 0.009690 seconds 
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Barrels/Mesh/Barrels_mesh(2).FBX
+  artifactKey: Guid(5be9215a12c8b3c44b68cf7ff37540c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Mesh/Barrels_mesh(2).FBX using Guid(5be9215a12c8b3c44b68cf7ff37540c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d46c361eb646b99a6318f510d13e9e') in 0.009687 seconds 
+  Import took 0.013378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_D.FBX
+  artifactKey: Guid(7ce6c838e6ce7d04eaaa4508742c7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_D.FBX using Guid(7ce6c838e6ce7d04eaaa4508742c7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee30520a0b6a3cfdf940e98243bd760') in 0.008983 seconds 
+  Import took 0.012344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl2Merged.fbx
+  artifactKey: Guid(acbef2e4f7ed08d47ae6421b748ba3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl2Merged.fbx using Guid(acbef2e4f7ed08d47ae6421b748ba3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc877bf8c634b87072cad4d1d24160a5') in 0.009363 seconds 
+  Import took 0.014015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Bullets_&_Casings/big_bullet.fbx
+  artifactKey: Guid(e3e3b2d021fa80a488a48fcd984ef279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Bullets_&_Casings/big_bullet.fbx using Guid(e3e3b2d021fa80a488a48fcd984ef279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b0c1d7959af1a8cacc58993ea619da') in 0.010249 seconds 
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_C.FBX
+  artifactKey: Guid(b34e672afb707324ab93fd7664f132f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_C.FBX using Guid(b34e672afb707324ab93fd7664f132f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a293038ae0b742c8c2171608b3ad26') in 0.009104 seconds 
+  Import took 0.011882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl3Merged.fbx
+  artifactKey: Guid(9fa2c6aa1d9167b488821d08c57249a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl3Merged.fbx using Guid(9fa2c6aa1d9167b488821d08c57249a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc548436270c2bf3817ca9b83fd8597') in 0.005469 seconds 
+  Import took 0.008318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl0Merged.fbx
+  artifactKey: Guid(85c2135dba9869f4c978aa007685672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl0Merged.fbx using Guid(85c2135dba9869f4c978aa007685672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a91408841a33ab72054d5cf8b2742') in 0.004823 seconds 
+  Import took 0.007366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl1.fbx
+  artifactKey: Guid(499005f89dd86a143b786ae9bd859f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl1.fbx using Guid(499005f89dd86a143b786ae9bd859f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52221bcab9f36e1272dbeb7cf2775d57') in 0.012677 seconds 
+  Import took 0.015488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_B.FBX
+  artifactKey: Guid(a1ac4276497152c4aa593a8be9258a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_B.FBX using Guid(a1ac4276497152c4aa593a8be9258a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d0e3846596ae673d35dd22a96ad6f') in 0.004760 seconds 
+  Import took 0.007990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_empty.fbx
+  artifactKey: Guid(e3b68d32874e47f499034af31564b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly FPS Pack - Free (Sample)/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_empty.fbx using Guid(e3b68d32874e47f499034af31564b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd724ea2b52a1ef65879231c253df35fe') in 0.008160 seconds 
+  Import took 0.011221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_A.FBX
+  artifactKey: Guid(d7eb2cf0d09347e46a2694aa18cfd456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/models/env_Desert_Hill_A.FBX using Guid(d7eb2cf0d09347e46a2694aa18cfd456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f9d48d6a8eb28c7168d80cff13fd96') in 0.004422 seconds 
+  Import took 0.007675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/CastlePack/FBX/CornerWalls/CornerWallLvl2.fbx
+  artifactKey: Guid(9d3bbc9f37bb75b469a43d687a9cd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastlePack/FBX/CornerWalls/CornerWallLvl2.fbx using Guid(9d3bbc9f37bb75b469a43d687a9cd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d4113237582a21bdcbccdd83553162') in 0.012186 seconds 
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.009278 seconds.
+  path: Assets/_SCI-FI_Barrels_40_Sample/SCI_FI_Barrels_Sample.FBX
+  artifactKey: Guid(5c5915e3b1cd1e9498fc34258639b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SCI-FI_Barrels_40_Sample/SCI_FI_Barrels_Sample.FBX using Guid(5c5915e3b1cd1e9498fc34258639b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53fcf76dd2e3466144fc8690d577df4') in 0.009245 seconds 
+  Import took 0.012000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602710 seconds.
+  path: Assets/Materials/Fires_materials/emoji.mat
+  artifactKey: Guid(64228cb784924f24d916344524fd2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/emoji.mat using Guid(64228cb784924f24d916344524fd2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96393b76101e513e46b6bd4107b32e') in 0.095228 seconds 
+  Import took 0.098510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Materials/Fires_materials/sparks.mat
+  artifactKey: Guid(96e0b2904e13cac4c8487638f1d0432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/sparks.mat using Guid(96e0b2904e13cac4c8487638f1d0432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b927dc2836d46bbc115022050e11c9ce') in 0.019842 seconds 
+  Import took 0.022663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Materials/Fires_materials/sparks.png
+  artifactKey: Guid(6992e5d18aec9834baed838fe5dd63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/sparks.png using Guid(6992e5d18aec9834baed838fe5dd63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1807fdc813f7ce52a46d78fb18a70bc') in 0.074167 seconds 
+  Import took 0.077217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Materials/Fires_materials/fire_flame_3x3.png
+  artifactKey: Guid(bdcade6d200c72743abc052be73aa644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/fire_flame_3x3.png using Guid(bdcade6d200c72743abc052be73aa644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a32011009d2cef1312fc8fb7e042d7') in 0.019984 seconds 
+  Import took 0.022820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Fires_materials/emoji.png
+  artifactKey: Guid(a7f8ffbdc3f54784a918f551e1f6a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/emoji.png using Guid(a7f8ffbdc3f54784a918f551e1f6a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eba6343d2ce58aa4652d938c8beb9ac') in 0.013591 seconds 
+  Import took 0.016581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Materials/Fires_materials/fire_flame_impact.mat
+  artifactKey: Guid(5fcf38ff3790cd14fa4718fce91ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/fire_flame_impact.mat using Guid(5fcf38ff3790cd14fa4718fce91ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac603bdfd863a38b45630c7efb222f7') in 0.019445 seconds 
+  Import took 0.022655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/Fires_materials/fire_flame_impact.tga
+  artifactKey: Guid(a0fcbb0ca6c9f9a4f8e3dbd92a8b437f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/fire_flame_impact.tga using Guid(a0fcbb0ca6c9f9a4f8e3dbd92a8b437f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd851629fc83a8e4e489ff978b75e4d2f') in 0.108963 seconds 
+  Import took 0.111485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Fires_materials/fire_flame_impact.mat
+  artifactKey: Guid(5fcf38ff3790cd14fa4718fce91ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/fire_flame_impact.mat using Guid(5fcf38ff3790cd14fa4718fce91ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac603bdfd863a38b45630c7efb222f7') in 0.011108 seconds 
+  Import took 0.013616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Fires_materials/fire_flame_3x3.mat
+  artifactKey: Guid(95e733fd1ee03ef4583bb92161a62a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fires_materials/fire_flame_3x3.mat using Guid(95e733fd1ee03ef4583bb92161a62a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a573ccc6e3606cb4768fd0512c082736') in 0.016414 seconds 
+  Import took 0.019599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.506097 seconds.
+  path: Assets/Materials/fire_impact.prefab
+  artifactKey: Guid(8b0c3baf8ca290342b7bc9ff19c548f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fire_impact.prefab using Guid(8b0c3baf8ca290342b7bc9ff19c548f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a408dcf577ec1bf842b67ce925d5e029') in 0.021598 seconds 
+  Import took 0.025122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Materials/red.mat
+  artifactKey: Guid(f38fe001d4f75c04d8c245015c648a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/red.mat using Guid(f38fe001d4f75c04d8c245015c648a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6746b13735a6799b22762a7e61c0d1') in 0.103533 seconds 
+  Import took 0.106344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/green.mat
+  artifactKey: Guid(c336f2beb4da0ec4085df1c79f0bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/green.mat using Guid(c336f2beb4da0ec4085df1c79f0bdfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1493043d199625033a5dda96e5fae902') in 0.015119 seconds 
+  Import took 0.019231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Materials/fog.mat
+  artifactKey: Guid(282d5742ee5ab9e4299e4a50bddca812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fog.mat using Guid(282d5742ee5ab9e4299e4a50bddca812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47d82addbeb06d5fc0a1f7f1de8224') in 0.016767 seconds 
+  Import took 0.020514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Materials/highlight.mat
+  artifactKey: Guid(c98aa04d853ef9044bda7784d9d368d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/highlight.mat using Guid(c98aa04d853ef9044bda7784d9d368d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78860e94c5f60dcf566c7a4fcc7294bf') in 0.016869 seconds 
+  Import took 0.020929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.570599 seconds.
+  path: Assets/Minimap/minimap.renderTexture
+  artifactKey: Guid(02a07509b9dd23d4689e3dd25af49a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimap/minimap.renderTexture using Guid(02a07509b9dd23d4689e3dd25af49a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfcdd0a5ab383d34cf70516b5ee661f') in 0.029970 seconds 
+  Import took 0.033922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.152860 seconds.
+  path: Assets/coded prefab/car_enemy.prefab
+  artifactKey: Guid(d97704029620d524c975cb185797ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/car_enemy.prefab using Guid(d97704029620d524c975cb185797ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10888aadfa3f757b90fd11a1d0bf6bb3') in 0.027175 seconds 
+  Import took 0.037879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/coded prefab/ship 1.prefab
+  artifactKey: Guid(a95967b20c76b2f4dbbb91ba5323e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/ship 1.prefab using Guid(a95967b20c76b2f4dbbb91ba5323e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a93fafedfb021cae625b8a40505ea1') in 0.066278 seconds 
+  Import took 0.069067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/coded prefab/solider2_enemy.prefab
+  artifactKey: Guid(93cc63fc7fe443a499cede64676e4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/solider2_enemy.prefab using Guid(93cc63fc7fe443a499cede64676e4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd089943d3eb1c83ec88d3e54d288c37') in 0.034629 seconds 
+  Import took 0.037195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/coded prefab/solider1.prefab
+  artifactKey: Guid(71fcf69b22a623249912be07d85e2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/solider1.prefab using Guid(71fcf69b22a623249912be07d85e2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d0f56b82a1afe7827a8c6a5bbf64b8') in 0.022228 seconds 
+  Import took 0.025425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/coded prefab/tank.prefab
+  artifactKey: Guid(b7af5b847534cf847945d93992ae68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/tank.prefab using Guid(b7af5b847534cf847945d93992ae68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198757d433efe13f717ac40a000ca0a6') in 0.030927 seconds 
+  Import took 0.034065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/coded prefab/plane.prefab
+  artifactKey: Guid(605fa90503efc474eb05ea9cd17ee1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/plane.prefab using Guid(605fa90503efc474eb05ea9cd17ee1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f09881b1543ea8273c20bec216eed1') in 0.029514 seconds 
+  Import took 0.032894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/coded prefab/solider1_enemy.prefab
+  artifactKey: Guid(d2b79f00a824a814baf48fb64833fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/solider1_enemy.prefab using Guid(d2b79f00a824a814baf48fb64833fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773b3722c261d2445b9b5d402330e076') in 0.048888 seconds 
+  Import took 0.052549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/coded prefab/solider2.prefab
+  artifactKey: Guid(97ea75767aff1f145b9b496a3127dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/solider2.prefab using Guid(97ea75767aff1f145b9b496a3127dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea1c9fa7623f1c9552ea2788332b4c5') in 0.012926 seconds 
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/coded prefab/tank_enemy.prefab
+  artifactKey: Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/tank_enemy.prefab using Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bf825ee9cf894d173f01adcb86d147') in 0.023135 seconds 
+  Import took 0.026604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/coded prefab/plane_enemy.prefab
+  artifactKey: Guid(00e5b8e379f3e854ba7fd631f222aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/plane_enemy.prefab using Guid(00e5b8e379f3e854ba7fd631f222aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ec92f5f53a611c213e7f20272075fc') in 0.042616 seconds 
+  Import took 0.046973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/coded prefab/ship.prefab
+  artifactKey: Guid(f76a7f1aca554c0418d9305fb0c91726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/ship.prefab using Guid(f76a7f1aca554c0418d9305fb0c91726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b04a54eb1c5c2048c175db25788dfb') in 0.013680 seconds 
+  Import took 0.017619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.273677 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Grav_Light_A.FBX
+  artifactKey: Guid(e792848ce00aa654c989849dc680bbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Grav_Light_A.FBX using Guid(e792848ce00aa654c989849dc680bbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b88dc3b5aecb33e8a61525a559275b6') in 0.080506 seconds 
+  Import took 0.083738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Destroyer_A.FBX
+  artifactKey: Guid(2dcf2590d92b57348a9ad81b2c66a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Destroyer_A.FBX using Guid(2dcf2590d92b57348a9ad81b2c66a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f829d7a0823c70482881d174e624a27') in 0.042751 seconds 
+  Import took 0.045529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Missile_A.FBX
+  artifactKey: Guid(1e761ad40eaecf9418fbd18a0250e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Missile_A.FBX using Guid(1e761ad40eaecf9418fbd18a0250e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e46b8607cac145a2ac5e6f520426ff') in 0.032996 seconds 
+  Import took 0.035652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Special_B.FBX
+  artifactKey: Guid(f913ee05f9840a443a6f855f4b609ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Special_B.FBX using Guid(f913ee05f9840a443a6f855f4b609ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94866dd8e2908ca832be1c4cd58b040d') in 0.047069 seconds 
+  Import took 0.049735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Special_A.FBX
+  artifactKey: Guid(175dcb42787b18146a13120689723148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Special_A.FBX using Guid(175dcb42787b18146a13120689723148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064fd8fcc032f6edff4ecd78df29d557') in 0.047530 seconds 
+  Import took 0.050062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Destroyer_B.FBX
+  artifactKey: Guid(335becd54cb3ec7499981c2fe7317fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Destroyer_B.FBX using Guid(335becd54cb3ec7499981c2fe7317fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd648162a63ae832f818b2ec034079a') in 0.043597 seconds 
+  Import took 0.046317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Patrol_B.FBX
+  artifactKey: Guid(31d31d2c1f42d4d4e9187fe966fcb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Patrol_B.FBX using Guid(31d31d2c1f42d4d4e9187fe966fcb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea470461c5217f2fe7db6deee3d64528') in 0.030490 seconds 
+  Import took 0.033094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Missile_B.FBX
+  artifactKey: Guid(5a507f360ca71554da3c3ed72a084d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Tank_Missile_B.FBX using Guid(5a507f360ca71554da3c3ed72a084d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9015af005acb12fc40226f59407e3191') in 0.034525 seconds 
+  Import took 0.037056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Grav_Light_B.prefab
+  artifactKey: Guid(5c4bc7f97d8c5704d9c01983170238f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Grav_Light_B.prefab using Guid(5c4bc7f97d8c5704d9c01983170238f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfaa32566f29678f2b4130e63313b49') in 0.026761 seconds 
+  Import took 0.029559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Patrol_A.prefab
+  artifactKey: Guid(44546f756544f4841b9f2fa27c075a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Patrol_A.prefab using Guid(44546f756544f4841b9f2fa27c075a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ea8916f5a9cac5a1c26e1302450542') in 0.025168 seconds 
+  Import took 0.028504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ornithopter_Heavy_B.prefab
+  artifactKey: Guid(2d9f9b08b7391ef42852eeeb6ebacffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ornithopter_Heavy_B.prefab using Guid(2d9f9b08b7391ef42852eeeb6ebacffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8add4084b25b6f1bfd3154b5968f59ed') in 0.026100 seconds 
+  Import took 0.029105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Infantry_Special_A.prefab
+  artifactKey: Guid(cd5f42a9b21dbb04cbe5c0f38fed0f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Infantry_Special_A.prefab using Guid(cd5f42a9b21dbb04cbe5c0f38fed0f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b725d8540f543c90fceb4db1a8771b9c') in 0.027365 seconds 
+  Import took 0.031567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Special_A.prefab
+  artifactKey: Guid(b9b8458529b0faf42bca7a4ebaeb84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Special_A.prefab using Guid(b9b8458529b0faf42bca7a4ebaeb84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e455463a0566e2dd2a77f34e12f55a5f') in 0.024415 seconds 
+  Import took 0.027239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Destroyer_A.prefab
+  artifactKey: Guid(a75415f73f409964e9f87923ea80fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Destroyer_A.prefab using Guid(a75415f73f409964e9f87923ea80fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeedcb79dcf1d37ccc45324c1562cdb') in 0.024190 seconds 
+  Import took 0.027593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Battleship_A.prefab
+  artifactKey: Guid(bb0126b08796d4e4f9fd68182aca2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Battleship_A.prefab using Guid(bb0126b08796d4e4f9fd68182aca2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd000e57234d613eb88556dd0f236d26') in 0.026021 seconds 
+  Import took 0.028781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Missile_A.prefab
+  artifactKey: Guid(f46ca34dd83211045b2057e1d1c1a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Missile_A.prefab using Guid(f46ca34dd83211045b2057e1d1c1a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be5354eb8db4d79d332b9b1e50cd4a') in 0.024326 seconds 
+  Import took 0.027836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Destroyer_B.prefab
+  artifactKey: Guid(1eaaa24fad3a2cc4897e9c0638505756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Destroyer_B.prefab using Guid(1eaaa24fad3a2cc4897e9c0638505756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92945033056b673a9b33294b54e29817') in 0.025770 seconds 
+  Import took 0.028794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ornithopter_Heavy_A.prefab
+  artifactKey: Guid(65ab57415d3b1e2438387befa68f2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ornithopter_Heavy_A.prefab using Guid(65ab57415d3b1e2438387befa68f2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3343dd938d665b95f9043a0175bad0ca') in 0.029937 seconds 
+  Import took 0.033155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Grav_Light_A.prefab
+  artifactKey: Guid(b0efaf97114fc104281e64959fe77041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Grav_Light_A.prefab using Guid(b0efaf97114fc104281e64959fe77041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69381b20a3fa50593cf9dba890d89aaf') in 0.024748 seconds 
+  Import took 0.029029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Infantry_Special_B.prefab
+  artifactKey: Guid(7662a64d5b7e85a4a9a10940dd4af9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Infantry_Special_B.prefab using Guid(7662a64d5b7e85a4a9a10940dd4af9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd53d3873c7a8379a4492f99e2fe8f4') in 0.028080 seconds 
+  Import took 0.031859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Patrol_A.FBX
+  artifactKey: Guid(9e5c9723fc90f314db30f295e3d01efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Patrol_A.FBX using Guid(9e5c9723fc90f314db30f295e3d01efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1289d480a4d8c535fa2b7a29fe3943de') in 0.026778 seconds 
+  Import took 0.029892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Battleship_B.prefab
+  artifactKey: Guid(58981958ba1f91242902286b0081918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Battleship_B.prefab using Guid(58981958ba1f91242902286b0081918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b81d8390f4a1db369154b07a2882ac') in 0.026441 seconds 
+  Import took 0.030376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Infantry_Special_B.FBX
+  artifactKey: Guid(d3d182e0be1ae0944933b1ef360c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Infantry_Special_B.FBX using Guid(d3d182e0be1ae0944933b1ef360c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328713496a5c658c94698e1722349966') in 0.039704 seconds 
+  Import took 0.042580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Patrol_B.prefab
+  artifactKey: Guid(9872d238e714e1f479b24707abf27cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Ship_Patrol_B.prefab using Guid(9872d238e714e1f479b24707abf27cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b6b38e6174940e91317a5483249817') in 0.022810 seconds 
+  Import took 0.025656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Battleship_B.FBX
+  artifactKey: Guid(5891f26ae637e8b45bd7dd3dc1422235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Battleship_B.FBX using Guid(5891f26ae637e8b45bd7dd3dc1422235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b4914a3ad4ba9b5d4f5db4b1c28de4') in 0.053874 seconds 
+  Import took 0.057708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Battleship_A.FBX
+  artifactKey: Guid(b2a49418c9044b74a8f9592195bcdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ship_Battleship_A.FBX using Guid(b2a49418c9044b74a8f9592195bcdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44b98515d57f308be6de29ec88c22d1') in 0.051568 seconds 
+  Import took 0.054767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ornithopter_Heavy_A.FBX
+  artifactKey: Guid(3d4ad000072bb9a4a96818d9f4d59f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ornithopter_Heavy_A.FBX using Guid(3d4ad000072bb9a4a96818d9f4d59f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3b8bf2925c7e4aa51a101ff5f3c62b') in 0.069540 seconds 
+  Import took 0.072372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Missile_B.prefab
+  artifactKey: Guid(b8b95754fb458df42a97f55c67a8ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Missile_B.prefab using Guid(b8b95754fb458df42a97f55c67a8ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f1e764941ddf2f39f3b5218974c913') in 0.024815 seconds 
+  Import took 0.027736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Grav_Light_B.FBX
+  artifactKey: Guid(19eb95379796dc844a22f43ef4057e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Grav_Light_B.FBX using Guid(19eb95379796dc844a22f43ef4057e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd921aad60f4db4adfda95e3bcb92157') in 0.066436 seconds 
+  Import took 0.069503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ornithopter_Heavy_B.FBX
+  artifactKey: Guid(bfed6a134de748b46be6c6715adce578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Ornithopter_Heavy_B.FBX using Guid(bfed6a134de748b46be6c6715adce578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f8ffd715bb6245207d0d56df1f96ad') in 0.074738 seconds 
+  Import took 0.078103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Infantry_Special_A.FBX
+  artifactKey: Guid(e722feafcf6e4d24b9f6970e187cf92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/models/unit_Infantry_Special_A.FBX using Guid(e722feafcf6e4d24b9f6970e187cf92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340027ed6252dfbbdc593267ee9054ef') in 0.081306 seconds 
+  Import took 0.084182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Special_B.prefab
+  artifactKey: Guid(611ca500a0e3f9d4195d8b94b2fb931c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_3/prefabs/unit_Tank_Special_B.prefab using Guid(611ca500a0e3f9d4195d8b94b2fb931c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62ac075a25f2657268833fdbe649066') in 0.025107 seconds 
+  Import took 0.028496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.962630 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Factory_Heavy_A.prefab
+  artifactKey: Guid(c87cdd3a16975ca4c9d931d2ae37fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Factory_Heavy_A.prefab using Guid(c87cdd3a16975ca4c9d931d2ae37fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b61468a7f4f8e99d660f1d8858d2f6') in 0.022541 seconds 
+  Import took 0.025589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Trike_B.prefab
+  artifactKey: Guid(14159c7587524e34c83af878c6b0cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Trike_B.prefab using Guid(14159c7587524e34c83af878c6b0cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404f71ed34333d6b4e0a71e7f700e44c') in 0.027914 seconds 
+  Import took 0.030594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Heavy_B.prefab
+  artifactKey: Guid(70c59624d1b6a0c4f89b7a22d037e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Heavy_B.prefab using Guid(70c59624d1b6a0c4f89b7a22d037e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739057e9fe8552e9b063660c71652dc3') in 0.028246 seconds 
+  Import took 0.030670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Quad_B.prefab
+  artifactKey: Guid(d326448635d47ac498ce72a50b3667b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Quad_B.prefab using Guid(d326448635d47ac498ce72a50b3667b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f70220c3db0915df28d4d9257d0520') in 0.025447 seconds 
+  Import took 0.028680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Infantry_Light_B.prefab
+  artifactKey: Guid(7771b823973e1d348a8f17659b61b05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Infantry_Light_B.prefab using Guid(7771b823973e1d348a8f17659b61b05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e744464e556cf05cb0d0eff7579dab') in 0.027008 seconds 
+  Import took 0.030364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Ornithopter_Light_A.prefab
+  artifactKey: Guid(59d53c6b111087d438c6f4042779f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Ornithopter_Light_A.prefab using Guid(59d53c6b111087d438c6f4042779f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a569e8a06e1b8c950bd84612c8516a1') in 0.026968 seconds 
+  Import took 0.030011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Heavy_A.prefab
+  artifactKey: Guid(1c951d7bc50d6fe4b91d289b53281c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Heavy_A.prefab using Guid(1c951d7bc50d6fe4b91d289b53281c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db557ef32c34a8b154b9e2165257d0f9') in 0.027567 seconds 
+  Import took 0.030302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Ornithopter_Light_B.prefab
+  artifactKey: Guid(62e0cf1aacbf19c4e9d8e3d92fcef72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Ornithopter_Light_B.prefab using Guid(62e0cf1aacbf19c4e9d8e3d92fcef72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32627540dc53ce3b3e87dba8897892e3') in 0.027366 seconds 
+  Import took 0.030460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Headquarters_A.prefab
+  artifactKey: Guid(034e15246a35fc54ca1f1e6aa3ce4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Headquarters_A.prefab using Guid(034e15246a35fc54ca1f1e6aa3ce4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9148e0aa69007f1e3b62514bfd2647') in 0.026995 seconds 
+  Import took 0.029866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Combat_B.prefab
+  artifactKey: Guid(4918f2b12f4375247985ec4762ddb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/unit_Tank_Combat_B.prefab using Guid(4918f2b12f4375247985ec4762ddb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8c6f3f901dd2b4c13e1bf247ed18b4') in 0.027072 seconds 
+  Import took 0.030713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Headquarters_A.prefab
+  artifactKey: Guid(034e15246a35fc54ca1f1e6aa3ce4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Headquarters_A.prefab using Guid(034e15246a35fc54ca1f1e6aa3ce4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9148e0aa69007f1e3b62514bfd2647') in 0.022621 seconds 
+  Import took 0.025548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Research_Lab_A.prefab
+  artifactKey: Guid(a1211af52fd766446977b868c97e6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs/struct_Research_Lab_A.prefab using Guid(a1211af52fd766446977b868c97e6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7629bf69ca32f2c4a723741a8f8d649') in 0.028215 seconds 
+  Import took 0.031197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.785790 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_A.prefab
+  artifactKey: Guid(bacd7f61ee429894dade69dcf5014462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_A.prefab using Guid(bacd7f61ee429894dade69dcf5014462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c5cf443bccb68ab34dd62a57435718') in 0.122909 seconds 
+  Import took 0.125873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_D.prefab
+  artifactKey: Guid(3c176cc847d5e7041b6f8077278e9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_D.prefab using Guid(3c176cc847d5e7041b6f8077278e9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad7616dbb44b31a1726880216a08454') in 0.018751 seconds 
+  Import took 0.022637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Radar_Outpost_A.prefab
+  artifactKey: Guid(657e15bec2a95e44ea250fa9fb5d8abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Radar_Outpost_A.prefab using Guid(657e15bec2a95e44ea250fa9fb5d8abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf25db1d2b74e5087642e91ad82cf4') in 0.025164 seconds 
+  Import took 0.029466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Caryall_A.prefab
+  artifactKey: Guid(a40ebacbd5461284aa83527f5796fc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Caryall_A.prefab using Guid(a40ebacbd5461284aa83527f5796fc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2feff7f162e81156fa12e908d1b0c12') in 0.026592 seconds 
+  Import took 0.030521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_A.prefab
+  artifactKey: Guid(1fcd9e37a935dc943b695260b82c9a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_A.prefab using Guid(1fcd9e37a935dc943b695260b82c9a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05fc43bfa44b923b4fc865cad2fd28c') in 0.025446 seconds 
+  Import took 0.028212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A.prefab
+  artifactKey: Guid(a28fe55c0ae796843a354638b54d99c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A.prefab using Guid(a28fe55c0ae796843a354638b54d99c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e67f54ffddbd861806db8efb11be7') in 0.027109 seconds 
+  Import took 0.030230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Turret_Missile_A.prefab
+  artifactKey: Guid(ae06e0c37069f71479897171344f0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Turret_Missile_A.prefab using Guid(ae06e0c37069f71479897171344f0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976bf826117b55b21527a03349674c4e') in 0.031540 seconds 
+  Import took 0.034813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_A.prefab
+  artifactKey: Guid(2a33e8751a80d76428636c195c455a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_A.prefab using Guid(2a33e8751a80d76428636c195c455a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb003e1589e45357adca11f8cc6779e') in 0.022358 seconds 
+  Import took 0.027034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Barracks_A.prefab
+  artifactKey: Guid(0500e7d50acb4a14c8a2633f8fab55d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Barracks_A.prefab using Guid(0500e7d50acb4a14c8a2633f8fab55d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319537a3d06ed6aeef6cbdec1d9cf86') in 0.034142 seconds 
+  Import took 0.037474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_B.prefab
+  artifactKey: Guid(a23e74fdfaa154a4cb66bf4849fdfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_B.prefab using Guid(a23e74fdfaa154a4cb66bf4849fdfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf5955a20ea96d9163ff7480b24548') in 0.028199 seconds 
+  Import took 0.031610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Infantry_Light_A.prefab
+  artifactKey: Guid(1e4eb5186a56f1b429c10406731a854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Infantry_Light_A.prefab using Guid(1e4eb5186a56f1b429c10406731a854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b9be94defec1098696ce45f0b2325e') in 0.030662 seconds 
+  Import took 0.033813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_B.prefab
+  artifactKey: Guid(a23e74fdfaa154a4cb66bf4849fdfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_B.prefab using Guid(a23e74fdfaa154a4cb66bf4849fdfaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf5955a20ea96d9163ff7480b24548') in 0.021634 seconds 
+  Import took 0.025218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_C.prefab
+  artifactKey: Guid(618be2d036844b8438fbb3fd577666c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Misc_Building_C.prefab using Guid(618be2d036844b8438fbb3fd577666c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e571a67e2849695bbb3ca79e981f6') in 0.026645 seconds 
+  Import took 0.030924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Construction_Yard_A.prefab
+  artifactKey: Guid(adaff83161e60e94496f71a0039a305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Construction_Yard_A.prefab using Guid(adaff83161e60e94496f71a0039a305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e5ca99805591ec9496e3994138d71b') in 0.030174 seconds 
+  Import took 0.034508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_C.prefab
+  artifactKey: Guid(77b60a204e9c6574ba42fa72caa7c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_C.prefab using Guid(77b60a204e9c6574ba42fa72caa7c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e099c88d39435e0a3980ff1492ebdc79') in 0.023119 seconds 
+  Import took 0.027220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Triple.prefab
+  artifactKey: Guid(f797b15831272694283efee7b4f8cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Triple.prefab using Guid(f797b15831272694283efee7b4f8cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7939aa93bc748deebbf66f1ea002fe58') in 0.027484 seconds 
+  Import took 0.030604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_2x3_A.prefab
+  artifactKey: Guid(07ba09bc7eab17e4a8bbb3c808bf972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_2x3_A.prefab using Guid(07ba09bc7eab17e4a8bbb3c808bf972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3935d86b4ab3a07706aafd3332dbdc') in 0.026433 seconds 
+  Import took 0.029306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Harvester_A.prefab
+  artifactKey: Guid(19aaf16588c65484eb352ce9d5df1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Harvester_A.prefab using Guid(19aaf16588c65484eb352ce9d5df1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8e94fb46111612f2c66802977f213') in 0.029667 seconds 
+  Import took 0.032476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Quadruple.prefab
+  artifactKey: Guid(c4cd9f726762f6848bd1ceff545ae29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Quadruple.prefab using Guid(c4cd9f726762f6848bd1ceff545ae29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714ed548ae474778dda525d719c8db4d') in 0.027561 seconds 
+  Import took 0.031316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_D.prefab
+  artifactKey: Guid(2715c09ead9cb1449873b0756da2ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_D.prefab using Guid(2715c09ead9cb1449873b0756da2ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5e7ccc765dd35c0a46ca93a63f3ead') in 0.021624 seconds 
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_B.prefab
+  artifactKey: Guid(6d7d1e6e890b8804d930766d6c6074bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_B.prefab using Guid(6d7d1e6e890b8804d930766d6c6074bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e977d9a100df12bfc47252e0ce4964') in 0.023390 seconds 
+  Import took 0.027085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_Tower_B.prefab
+  artifactKey: Guid(3ae292749d20d484d80cf70a2ca4c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_Tower_B.prefab using Guid(3ae292749d20d484d80cf70a2ca4c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f322f6939efb99062de154465af3b0e4') in 0.025726 seconds 
+  Import took 0.030017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Silo_A.prefab
+  artifactKey: Guid(0b372e601656a6949886ca5e408c278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Silo_A.prefab using Guid(0b372e601656a6949886ca5e408c278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed2781b8553d1518b5e8e689ba7b0d') in 0.026293 seconds 
+  Import took 0.029304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_B.prefab
+  artifactKey: Guid(444af54abfbbbcd47b98e23a2fccf661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_B.prefab using Guid(444af54abfbbbcd47b98e23a2fccf661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b39cf33fef2e88cc4dc799e64d97b5') in 0.019619 seconds 
+  Import took 0.024302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Refinery_A.prefab
+  artifactKey: Guid(8a66aa19244e20c4c94e0cc94d49309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Refinery_A.prefab using Guid(8a66aa19244e20c4c94e0cc94d49309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2d222bad4de789e0a93be4a5c5ac41') in 0.028621 seconds 
+  Import took 0.031579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Quad_A.prefab
+  artifactKey: Guid(b91adc53a5708d14da223abdb40471b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Quad_A.prefab using Guid(b91adc53a5708d14da223abdb40471b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8293925cb6fe0aef49c17c99bb09bf5b') in 0.028264 seconds 
+  Import took 0.030921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_A.prefab
+  artifactKey: Guid(fa6e0a3df2c3c514f8ec2626af516b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_A.prefab using Guid(fa6e0a3df2c3c514f8ec2626af516b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b930472aa12ee109d63b7b37cbfc9489') in 0.021004 seconds 
+  Import took 0.024327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_D.prefab
+  artifactKey: Guid(416f41b03406bba4d8a9e8817c19d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_D.prefab using Guid(416f41b03406bba4d8a9e8817c19d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917f1ea64cbcf58714990bc9458f26fa') in 0.026703 seconds 
+  Import took 0.030162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_A.prefab
+  artifactKey: Guid(1ac738399daec134abbf0b370a3bd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_A.prefab using Guid(1ac738399daec134abbf0b370a3bd9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22d915691b61c66d15ed26d32ebb13') in 0.021581 seconds 
+  Import took 0.025944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Spaceport_A.prefab
+  artifactKey: Guid(891b0cea15106e24ba66d6879c024399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Spaceport_A.prefab using Guid(891b0cea15106e24ba66d6879c024399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1c4ee47316f3d3c850c4a817768db6') in 0.027121 seconds 
+  Import took 0.031739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_D.prefab
+  artifactKey: Guid(cecf274637cb60a46aec92d5beecc031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_D.prefab using Guid(cecf274637cb60a46aec92d5beecc031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b51c8e31561857bd8da1245daee53b6') in 0.022995 seconds 
+  Import took 0.026785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_C.prefab
+  artifactKey: Guid(dfecbe9f3a93d3542874d902e3b44057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_C.prefab using Guid(dfecbe9f3a93d3542874d902e3b44057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c254afecec0ce6c80a3918df85d428') in 0.024105 seconds 
+  Import took 0.027719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_Tower_A.prefab
+  artifactKey: Guid(b6a08ecb8142a9240b27c8565be36f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_Tower_A.prefab using Guid(b6a08ecb8142a9240b27c8565be36f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881d16081b41195b0b4505f01a2d4368') in 0.031411 seconds 
+  Import took 0.034806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_1x1_A.prefab
+  artifactKey: Guid(0574808a8342463479f7ad42fc21e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_1x1_A.prefab using Guid(0574808a8342463479f7ad42fc21e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef265018d86b3f6f0007d9406db7b78') in 0.028407 seconds 
+  Import took 0.031712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_C.prefab
+  artifactKey: Guid(2b1226f4664294a49b50b5a1991c4414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_C.prefab using Guid(2b1226f4664294a49b50b5a1991c4414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90277100119e01e8322537c0b441b6e5') in 0.025426 seconds 
+  Import took 0.029039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Corner.prefab
+  artifactKey: Guid(2767198676811e242a6ee48f3f83359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Wall_A_Corner.prefab using Guid(2767198676811e242a6ee48f3f83359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f71a8f0de42712ae83e0965be3f8aa') in 0.030995 seconds 
+  Import took 0.034781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_2x2_A.prefab
+  artifactKey: Guid(5959018edb6b82848bc2bc4c7402888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_2x2_A.prefab using Guid(5959018edb6b82848bc2bc4c7402888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408ba725776e7aa439a80a62e5ab9db6') in 0.031306 seconds 
+  Import took 0.034880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Windtrap_A.prefab
+  artifactKey: Guid(c20731ac78d9fd347bdfaa68d5df527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Windtrap_A.prefab using Guid(c20731ac78d9fd347bdfaa68d5df527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a486acfb5888e6a8b20c116237bbf965') in 0.030238 seconds 
+  Import took 0.033894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Tank_Combat_A.prefab
+  artifactKey: Guid(642075d4e9ed8f649b79cee1f447793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Tank_Combat_A.prefab using Guid(642075d4e9ed8f649b79cee1f447793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d68e8da4a3544bd576fdcceb338322') in 0.036076 seconds 
+  Import took 0.039603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_B.prefab
+  artifactKey: Guid(89759ffd1e7f1e543bea14c42b2e3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Large_B.prefab using Guid(89759ffd1e7f1e543bea14c42b2e3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dee5283aadc7dcdb6c97dacb5be4f0') in 0.025072 seconds 
+  Import took 0.030073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Factory_Light_A.prefab
+  artifactKey: Guid(d80a3c4970413a341baf4efb5f5bbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Factory_Light_A.prefab using Guid(d80a3c4970413a341baf4efb5f5bbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1204d28700878491c2196ca63d031b3d') in 0.032130 seconds 
+  Import took 0.036548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Trike_A.prefab
+  artifactKey: Guid(3f99cd48641f13144a85392105db84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/unit_Trike_A.prefab using Guid(3f99cd48641f13144a85392105db84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac74d95d2b1adb03ef05a91730d5c8') in 0.031077 seconds 
+  Import took 0.035144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_3x3_A.prefab
+  artifactKey: Guid(f401f944fbf54c54a8103a57accce14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Slab_3x3_A.prefab using Guid(f401f944fbf54c54a8103a57accce14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb67c899085954a36479de61568655d') in 0.032092 seconds 
+  Import took 0.036173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Turret_Gun_A.prefab
+  artifactKey: Guid(139cc450b812b21489d61625f19a545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/struct_Turret_Gun_A.prefab using Guid(139cc450b812b21489d61625f19a545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7d94f77ece88f76af1f9dd2fb240bb') in 0.030719 seconds 
+  Import took 0.034099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_C.prefab
+  artifactKey: Guid(13bfdfe90b3b72d489e4f71f7c96de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_C.prefab using Guid(13bfdfe90b3b72d489e4f71f7c96de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec89f8503698abd5b8a6add09b39099c') in 0.020935 seconds 
+  Import took 0.025034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_B.prefab
+  artifactKey: Guid(24dc1d3ed2f326b4cad028ce766b7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Hill_B.prefab using Guid(24dc1d3ed2f326b4cad028ce766b7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a37f64a4a8d2976f71866e8ee8d7f1d') in 0.026620 seconds 
+  Import took 0.032199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_A.prefab
+  artifactKey: Guid(d1f328a3532b9ea4289e159084896b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_A.prefab using Guid(d1f328a3532b9ea4289e159084896b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdde039120e83f6f4c5c1766640c5030') in 0.023868 seconds 
+  Import took 0.027575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_C.prefab
+  artifactKey: Guid(19835eeafd8e9e443afc050bae9fb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_C.prefab using Guid(19835eeafd8e9e443afc050bae9fb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ecade3a9b13049d064aee5da94b5e8') in 0.028310 seconds 
+  Import took 0.031597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_B.prefab
+  artifactKey: Guid(37a916bdb5401c8498accf7d5fd08738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Cliff_Base_B.prefab using Guid(37a916bdb5401c8498accf7d5fd08738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1bd96b8f6982b3f0768b6cdb1be7f7') in 0.026335 seconds 
+  Import took 0.029716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_D.prefab
+  artifactKey: Guid(3d48d2063c1b0d74aa9695d0a1da814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set/prefabs/env_Desert_Rock_Small_D.prefab using Guid(3d48d2063c1b0d74aa9695d0a1da814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8994800323fe39aec4f62813870714') in 0.025849 seconds 
+  Import took 0.029318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.899688 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-blue.mat
+  artifactKey: Guid(d7f0c86ff6be81e4d8e82f13e6fa7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-blue.mat using Guid(d7f0c86ff6be81e4d8e82f13e6fa7691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a5af20c0854dd575e773b06a6c829c') in 0.029975 seconds 
+  Import took 0.032625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/txtr_canopus-iii_set01-blue_diff.mat
+  artifactKey: Guid(b582c77e72aa86d4ba535797c500b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/txtr_canopus-iii_set01-blue_diff.mat using Guid(b582c77e72aa86d4ba535797c500b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798a445e09e2126bdb5a6e20406b8d67') in 0.018115 seconds 
+  Import took 0.021033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-red.mat
+  artifactKey: Guid(03993c9801677ca4b9741101b3033488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-red.mat using Guid(03993c9801677ca4b9741101b3033488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d4c1dfb9442bb90eac42f5ac273a93') in 0.030884 seconds 
+  Import took 0.034198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/txtr_canopus-iii_set01-red_diff.mat
+  artifactKey: Guid(373a6489b5c312e4698501d9aff401b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/txtr_canopus-iii_set01-red_diff.mat using Guid(373a6489b5c312e4698501d9aff401b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e042da954575a2badde405ca87baec14') in 0.024463 seconds 
+  Import took 0.027195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-green.mat
+  artifactKey: Guid(8d99f6689328c0c479f78811db5e37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-green.mat using Guid(8d99f6689328c0c479f78811db5e37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950fe1a2bec41d7d9a1573b6d88fe8bb') in 0.028280 seconds 
+  Import took 0.030926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594754 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Factory_Heavy_A.FBX
+  artifactKey: Guid(6faf16a4594f6b94cafa63f951d58ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Factory_Heavy_A.FBX using Guid(6faf16a4594f6b94cafa63f951d58ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e19b37f68e1f5f543ae26f1122f63e1') in 0.041743 seconds 
+  Import took 0.044468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Infantry_Light_B.FBX
+  artifactKey: Guid(213c404faa2ddf94f9b37a1bbff8789c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Infantry_Light_B.FBX using Guid(213c404faa2ddf94f9b37a1bbff8789c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172dbb2d285a5578e4db44718a4795c9') in 0.037113 seconds 
+  Import took 0.040259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Heavy_A.FBX
+  artifactKey: Guid(1b3b7da439f39c549a98fe1a0ffd45c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Heavy_A.FBX using Guid(1b3b7da439f39c549a98fe1a0ffd45c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453a78d065d5cc2edd328303b179237c') in 0.032269 seconds 
+  Import took 0.034999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Ornithopter_Light_B.FBX
+  artifactKey: Guid(b85dc4d949c7c1a4fb2f77d7972cceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Ornithopter_Light_B.FBX using Guid(b85dc4d949c7c1a4fb2f77d7972cceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd2bceba76666c01f86055b23adeb18') in 0.051734 seconds 
+  Import took 0.054417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Combat_B.FBX
+  artifactKey: Guid(6be765e61d30cca44b85d41c72fdf594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Combat_B.FBX using Guid(6be765e61d30cca44b85d41c72fdf594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdde5d3198791f2da6b87129e798b6') in 0.030812 seconds 
+  Import took 0.033456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Ornithopter_Light_A.FBX
+  artifactKey: Guid(5de395d4e3bfba642971b20d9f63e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Ornithopter_Light_A.FBX using Guid(5de395d4e3bfba642971b20d9f63e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe93c6301f042e67b55fa68d3c94301') in 0.048881 seconds 
+  Import took 0.051953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Headquarters_A.FBX
+  artifactKey: Guid(03a565dd04a73db4b95bf0329e822ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Headquarters_A.FBX using Guid(03a565dd04a73db4b95bf0329e822ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771fb783a9435883350a76a065f4b30c') in 0.030176 seconds 
+  Import took 0.033092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Quad_B.FBX
+  artifactKey: Guid(c1fb5385798c0c74c927dc1a6077f4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Quad_B.FBX using Guid(c1fb5385798c0c74c927dc1a6077f4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deea4ae336f658b93393f9e8ed51aa63') in 0.053672 seconds 
+  Import took 0.057029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Trike_B.FBX
+  artifactKey: Guid(79f525038e461cb42915a6b72806359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Trike_B.FBX using Guid(79f525038e461cb42915a6b72806359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35719484a4b2122514b896ed290aa8d1') in 0.054133 seconds 
+  Import took 0.057279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Research_Lab_A.FBX
+  artifactKey: Guid(a0cbb17a4f3b9344c98f842551cecedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Research_Lab_A.FBX using Guid(a0cbb17a4f3b9344c98f842551cecedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bfb389c4e13f090ee0b13685d716b') in 0.026003 seconds 
+  Import took 0.029157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Heavy_B.FBX
+  artifactKey: Guid(e87a4e7f2a4615846ad7d33df19c8ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/unit_Tank_Heavy_B.FBX using Guid(e87a4e7f2a4615846ad7d33df19c8ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fde83e8853e68d5e32d26c798d31cd') in 0.038997 seconds 
+  Import took 0.043372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Research_Lab_A.FBX
+  artifactKey: Guid(a0cbb17a4f3b9344c98f842551cecedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models/struct_Research_Lab_A.FBX using Guid(a0cbb17a4f3b9344c98f842551cecedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bfb389c4e13f090ee0b13685d716b') in 0.021178 seconds 
+  Import took 0.024563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.051589 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-all_emis.tif
+  artifactKey: Guid(b32e92d958ce49b45b8500150fd09d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-all_emis.tif using Guid(b32e92d958ce49b45b8500150fd09d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce87b1f227c74511a316f4603f50cb2b') in 0.047927 seconds 
+  Import took 0.051624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-red_diff.png
+  artifactKey: Guid(05f5bf77bda19854fb3498c74278d935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-red_diff.png using Guid(05f5bf77bda19854fb3498c74278d935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d397d7d0ec980abc676beb50a8f381e') in 0.018114 seconds 
+  Import took 0.021459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-green_diff.png
+  artifactKey: Guid(8ff9ad855188faa46b4dd24df9fea3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-green_diff.png using Guid(8ff9ad855188faa46b4dd24df9fea3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2848498811007d53b5df126dbfdffd') in 0.019604 seconds 
+  Import took 0.022744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-blue_diff.png
+  artifactKey: Guid(e090eeefd4ad15d458f94bb93b319505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/textures/txtr_canopus-iii_set01-blue_diff.png using Guid(e090eeefd4ad15d458f94bb93b319505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea7e1296434a0f92b9abf8511c6d01b') in 0.019126 seconds 
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.240793 seconds.
+  path: Assets/Boeng C-17/Crashed_Boeing.prefab
+  artifactKey: Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boeng C-17/Crashed_Boeing.prefab using Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd252ae965c46cff064655e3ddfc1a3c6') in 0.295400 seconds 
+  Import took 0.299847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.900553 seconds.
+  path: Assets/Boeng C-17/Crashed_Boeing.prefab
+  artifactKey: Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boeng C-17/Crashed_Boeing.prefab using Guid(1595094293d452347a76b3142c3c5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2847cf3a609f0925e0f4c43fef7d9c99') in 0.026062 seconds 
+  Import took 0.029878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.305574 seconds.
+  path: Assets/coded prefab/tank_enemy.prefab
+  artifactKey: Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/tank_enemy.prefab using Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef43d6f4ea0f101df4d97e7d8ebecf9') in 0.019747 seconds 
+  Import took 0.023493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.408281 seconds.
+  path: Assets/coded prefab/tank_enemy.prefab
+  artifactKey: Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coded prefab/tank_enemy.prefab using Guid(c41737e2cec619a4085ef35dcad0b0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044e6e3e7a631701e19227464319dfe1') in 0.017336 seconds 
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.4 MB.
+System memory in use after: 76.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 3.292900 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.044000 ms MarkObjects: 3.038400 ms  DeleteObjects: 0.058000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
