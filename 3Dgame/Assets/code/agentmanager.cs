@@ -35,6 +35,7 @@ public class agentmanager : MonoBehaviour
         {
             isDragging = true;
             mousePosition = Input.mousePosition;
+            DeselectUnit();
             /*if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
             {
                 if (hit.transform.CompareTag("ai"))
