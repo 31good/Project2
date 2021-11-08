@@ -40,13 +40,21 @@ public class BasicAttack : MonoBehaviour
                 if(dist1>dist2) targetRoot = enemy;
             }
             if(myRoot.currentState != Root3.STATE.Moving){
-                print("hi");
+                if(this.tag == "ai"){
+                    print(3);
+                    }
                 myRoot.ChangeState(Root3.STATE.Combat);
                 if(Vector3.Distance(transform.position, targetRoot.transform.position) > myRoot.reach){
                     myAgent.SetDestination(targetRoot.transform.position);
                     myAgent.isStopped = false;
+                    if(this.tag == "ai"){
+                    print(2);
+                    }
                 }
                 else{
+                    if(this.tag == "ai"){
+                    print(1);
+                    }
                     myAgent.isStopped = true;
                     Quaternion rotationToLookAt = Quaternion.LookRotation(targetRoot.transform.position - transform.position);
                     float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref velocityRoto, rotateSpeedWhenAtk* Time.deltaTime);

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4008697808370257274}
   - component: {fileID: -8047186637439701437}
   - component: {fileID: 6738006377749570841}
-  - component: {fileID: -2744376252369639858}
   - component: {fileID: 435458943663562581}
+  - component: {fileID: 4078114493332454126}
   m_Layer: 0
   m_Name: car
   m_TagString: ai
@@ -103,24 +103,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 12
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2744376252369639858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008697808370257273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbca47c3cb94bf1488898abec572221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myRoot: {fileID: 435458943663562581}
-  targetRoot: {fileID: 0}
-  enimies: []
-  atkReady: 0
-  myAgent: {fileID: 0}
-  rotateSpeedWhenAtk: 1
 --- !u!114 &435458943663562581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,6 +129,24 @@ MonoBehaviour:
   Fire_pos: {fileID: 3847567101603304815}
   bullet_force: 50
   Bulletprefab: {fileID: 1204952308834830661, guid: 944c2dd5c31d3d448903796cad94b773, type: 3}
+--- !u!114 &4078114493332454126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008697808370257273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbca47c3cb94bf1488898abec572221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRoot: {fileID: 435458943663562581}
+  targetRoot: {fileID: 0}
+  enimies: []
+  atkReady: 0
+  myAgent: {fileID: 4008697808370257275}
+  rotateSpeedWhenAtk: 1
 --- !u!1 &7897266181768855499
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4046637117927980, guid: 5d4fd87639fae7344aec91e10766c92a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.48
       objectReference: {fileID: 0}
     - target: {fileID: 4046637117927980, guid: 5d4fd87639fae7344aec91e10766c92a, type: 3}
       propertyPath: m_LocalPosition.z

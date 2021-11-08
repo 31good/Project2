@@ -30,6 +30,17 @@ public class Root3 : MonoBehaviour
     public GameObject Bulletprefab; 
     private NavMeshAgent agent;
     // Start is called before the first frame update
+    void status(){
+        if(this.tag == "ai"){
+            if((agent.destination.x - agent.nextPosition.x)<1f && (agent.destination.z - agent.nextPosition.z) <1f){
+            currentState = STATE.Idle;
+            }
+            else{
+                currentState = STATE.Moving;
+                agent.isStopped = false;
+            }
+        }
+    }
     public void DamageTaken(int damage){
         if((damage-def)>=0){
             hp = hp - (damage - def);
@@ -69,21 +80,10 @@ public class Root3 : MonoBehaviour
             if(other.tag == "ai"){
             detected.Add(other.GetComponent<Root3>());
             print("add");
-        }
+            }
         }
     }
     void OnTriggerExit(Collider other){
             detected.Remove(other.GetComponent<Root3>());
-    }
-    void status(){
-        if(this.tag == "ai"){
-            if((agent.destination.x - agent.nextPosition.x)<0.5f && (agent.destination.z - agent.nextPosition.x) <0.5f){
-            currentState = STATE.Idle;
-            }
-        else{
-            currentState = STATE.Moving;
-            agent.isStopped = false;
-            }
-        }
     }
 }
