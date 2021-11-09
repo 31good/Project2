@@ -24,6 +24,7 @@ public class Fog_of_War : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		agents = GameObject.FindGameObjectsWithTag("ai");
 		foreach (GameObject m_player in agents){
 			Ray r = new Ray(transform.position, m_player.transform.position - transform.position);
 			RaycastHit hit;
@@ -43,6 +44,7 @@ public class Fog_of_War : MonoBehaviour
 				UpdateColor();
 			}
 	   }
+	   //agents = GameObject.FindGameObjectsWithTag("ai");
 	}
 	
 	void Initialize() {

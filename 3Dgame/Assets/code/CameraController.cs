@@ -9,7 +9,11 @@ public class CameraController : MonoBehaviour
     //camera detect boarder
     public float BoarderThick=10f;
     //camera limit
-    public Vector2 panLimit;
+    //public Vector2 panLimit;
+    public float minX=-70f;
+    public float maxX=50f;
+    public float minZ=-100f;
+    public float maxZ=80f;
     //zoom speed
     public float scrollSpeed=20f;
     //zoom limit
@@ -36,9 +40,9 @@ public class CameraController : MonoBehaviour
         float scroll=Input.GetAxis("Mouse ScrollWheel");
         position.y-=scroll*scrollSpeed*100f*Time.deltaTime;
         //limit
-        position.x=Mathf.Clamp(position.x,-panLimit.x,panLimit.x);
+        position.x=Mathf.Clamp(position.x,minX,maxX);
         position.y=Mathf.Clamp(position.y,minY,maxY);
-        position.z=Mathf.Clamp(position.z,-panLimit.y,panLimit.y);
+        position.z=Mathf.Clamp(position.z,minZ,maxZ);
         transform.position=position;
 
     }

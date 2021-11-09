@@ -12,6 +12,7 @@ public class minimap_window : MonoBehaviour
     public float lineWidth;
 
     public Collider mapCollider;
+    public float limit_maxY,limit_minY,limit_maxX,limit_minX;
     public float z=1;
     private Vector3 GetCameraFrustumPoint(Vector3 position)
     {
@@ -36,6 +37,12 @@ public class minimap_window : MonoBehaviour
 
         float maxX = maxViewportPoint.x;
         float maxY = maxViewportPoint.y;
+
+        if(minX<limit_minX){minX=limit_minX;}
+        if(minY<limit_minY){minY=limit_minY;}
+        if(maxX>limit_maxX){maxX=limit_maxX;}
+        if(maxY>limit_maxY){maxY=limit_maxY;}
+        //print(maxX);
 
         GL.PushMatrix();
         {
