@@ -31,6 +31,8 @@ public class minimap_window : MonoBehaviour
 
         Vector3 minViewportPoint = minimap.WorldToViewportPoint(GetCameraFrustumPoint(new Vector3(0f, 0f)));
         Vector3 maxViewportPoint = minimap.WorldToViewportPoint(GetCameraFrustumPoint(new Vector3(Screen.width, Screen.height)));
+        //print("wide"+Screen.width);
+        //print("height"+Screen.height);
 
         float minX = minViewportPoint.x;
         float minY = minViewportPoint.y;
